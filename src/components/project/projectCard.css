@@ -1,0 +1,34 @@
+@font-face {
+    font-family: OstrichSans;
+    src: url(../../fonts/OstrichSans-Heavy.otf);
+}
+
+.project__card {
+    max-width: 370px;
+    height: auto;
+    background-color: rgba(91, 87, 87, 0.775);
+    box-shadow: rgb(167, 75, 75);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.project__card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project__card-item img {
+    width: 300px;
+    height: 200px; /* Задайте желаемую высоту для изображений */
+    object-fit: cover; /* Масштабирование изображения */
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 18px 18px 26px 6px rgba(34, 60, 80, 0.2);
+}
+
+.project__card-title {
+    color: aliceblue;
+    padding-bottom: 10px;
+}

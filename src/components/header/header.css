@@ -1,0 +1,200 @@
+@font-face {
+    font-family: bitArcade;
+    src: url(../../fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+
+.header {
+    display: block;
+}
+
+.header__container {
+    min-height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.header__background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header__background-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.header__info {
+    display: flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    padding: 8%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.header__info-container {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    max-width: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 5%; */
+    margin-bottom: 10%;
+    left: 0;
+    right: 0;
+}
+.header__info-main {
+    font-size: 72px;
+    line-height: 72px;
+    color: aliceblue;
+    text-shadow: 7px 1px 9px rgba(40,17,11,0.68);
+}
+.header__info-gamedev{
+    color: rgb(166, 168, 170);
+    font-size: 28px;
+}
+
+.header__gamedev {
+    font-size: 32px;
+}
+
+
+/* DOOMBAR */
+
+
+.header__doombar {
+    display: flex;
+    justify-content: center;
+    font-family: bitArcade;
+    text-shadow: 7px 4px 2px rgba(32,30,29,0.59);
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000; 
+    z-index: 1;
+}
+
+.header__doombar-list {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    background-image: url(../../img/pixil-frame-2.png);
+    border: 5px solid rgba(182, 180, 180, 0.574);
+}
+
+.doombar-list-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid rgba(161, 158, 158, 0.574);
+    background-color: rgba(182, 180, 180, 0.282);
+}
+
+.list-main-num {
+    font-size: 6vw;
+    color: rgba(202, 59, 59, 0.973);
+}
+.list-main-text {
+    font-size: 3vw;
+    color: rgb(182, 180, 180);
+}
+
+@media only screen and (max-width: 1356px)
+{
+    .list-main-num {
+    font-size: 2rem;
+    }
+    .list-main-text {
+    font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 958px) {
+    .list-main-num {
+        font-size: 1.6rem;
+        }
+        .list-main-text {
+        font-size: 1.6rem;
+        }
+}
+
+@media only screen and (max-width: 825px) {
+    .list-main-num {
+        font-size: 1.2rem;
+        }
+        .list-main-text {
+        font-size: 1.2rem;
+        }
+}
+@media only screen and (max-width: 690px) {
+    .list-main-num {
+        font-size: 1rem;
+        }
+        .list-main-text {
+        font-size: 1rem;
+        }
+}
+@media only screen and (max-width: 625px) {
+    .list-main-num {
+        font-size: 0.8rem;
+        }
+        .list-main-text {
+        font-size: 0.8rem;
+        }
+        .doombar-list-main {
+            margin: 5px;
+        }
+}
+@media only screen and (max-width: 507px) {
+    .list-main-num {
+        font-size: 0.6rem;
+        }
+        .list-main-text {
+        font-size: 0.6rem;
+        }
+}
+@media only screen and (max-width: 440px) {
+    /* .list-main-num {
+        font-size: 0.4rem;
+        }
+        .list-main-text {
+        font-size: 0.4rem;
+        } */
+        .doombar-list-main {
+            margin: 3px;
+            padding: 3px;
+        }
+}
+@media only screen and (max-width: 320px) {
+    .list-main-num {
+        font-size: 0.4rem;
+        }
+        .list-main-text {
+        font-size: 0.4rem;
+        }
+}
