@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className="navbar__container">
                 <ul className="navbar__list">
                     <li className="navbar__list-main">
-                        <NavLink to="/Portfolio_preBuild/" className={({isActive}) => 
+                        <NavLink to="/" className={({isActive}) => 
                             isActive ? activeLink : normalLink
                         }>
                             Home
