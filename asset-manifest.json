@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e403d22.css",
-    "main.js": "/static/js/main.9be8fc33.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/3d_girl_head.jpg": "/static/media/3d_girl_head.bfca96487326d5db147e.jpg",
-    "static/media/random_character.png": "/static/media/random_character.cd67fe8e0dcb68f9341a.png",
-    "static/media/random_game1.jpg": "/static/media/random_game1.b4228cadd8cb5c37fa44.jpg",
-    "static/media/pixil-frame-2.png": "/static/media/pixil-frame-2.6853f1bb71d59b7ea6ad.png",
-    "static/media/VCR_OSD_MONO_1.001.ttf": "/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
-    "static/media/OstrichSans-Heavy.otf": "/static/media/OstrichSans-Heavy.3a837cdeafd6547e8439.otf",
-    "index.html": "/index.html",
-    "main.5e403d22.css.map": "/static/css/main.5e403d22.css.map",
-    "main.9be8fc33.js.map": "/static/js/main.9be8fc33.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Portfolio_preBuild/static/css/main.645b23e6.css",
+    "main.js": "/Portfolio_preBuild/static/js/main.f0b30c16.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js",
+    "static/media/3d_girl_head.jpg": "/Portfolio_preBuild/static/media/3d_girl_head.bfca96487326d5db147e.jpg",
+    "static/media/random_character.png": "/Portfolio_preBuild/static/media/random_character.cd67fe8e0dcb68f9341a.png",
+    "static/media/random_game1.jpg": "/Portfolio_preBuild/static/media/random_game1.b4228cadd8cb5c37fa44.jpg",
+    "static/media/pixil-frame-2.png": "/Portfolio_preBuild/static/media/pixil-frame-2.6853f1bb71d59b7ea6ad.png",
+    "static/media/VCR_OSD_MONO_1.001.ttf": "/Portfolio_preBuild/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
+    "static/media/OstrichSans-Heavy.otf": "/Portfolio_preBuild/static/media/OstrichSans-Heavy.3a837cdeafd6547e8439.otf",
+    "index.html": "/Portfolio_preBuild/index.html",
+    "main.645b23e6.css.map": "/Portfolio_preBuild/static/css/main.645b23e6.css.map",
+    "main.f0b30c16.js.map": "/Portfolio_preBuild/static/js/main.f0b30c16.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e403d22.css",
-    "static/js/main.9be8fc33.js"
+    "static/css/main.645b23e6.css",
+    "static/js/main.f0b30c16.js"
   ]
 }
