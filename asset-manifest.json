@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio_preBuild/static/css/main.645b23e6.css",
-    "main.js": "/Portfolio_preBuild/static/js/main.f0b30c16.js",
+    "main.css": "/Portfolio_preBuild/static/css/main.430cf49c.css",
+    "main.js": "/Portfolio_preBuild/static/js/main.91eb4fb3.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js",
+    "static/media/3d_girl_half_size.jpg": "/Portfolio_preBuild/static/media/3d_girl_half_size.7c40005d8ef43b364fc3.jpg",
     "static/media/3d_girl_head.jpg": "/Portfolio_preBuild/static/media/3d_girl_head.bfca96487326d5db147e.jpg",
+    "static/media/3d_girl_full_size.jpg": "/Portfolio_preBuild/static/media/3d_girl_full_size.0524d6ac2457e7a9fa27.jpg",
     "static/media/random_character.png": "/Portfolio_preBuild/static/media/random_character.cd67fe8e0dcb68f9341a.png",
     "static/media/random_game1.jpg": "/Portfolio_preBuild/static/media/random_game1.b4228cadd8cb5c37fa44.jpg",
     "static/media/pixil-frame-2.png": "/Portfolio_preBuild/static/media/pixil-frame-2.6853f1bb71d59b7ea6ad.png",
+    "static/media/1998_MercedesBenz_CLKGTRStraenversion1.jpg": "/Portfolio_preBuild/static/media/1998_MercedesBenz_CLKGTRStraenversion1.9baef6eec069c253babd.jpg",
     "static/media/VCR_OSD_MONO_1.001.ttf": "/Portfolio_preBuild/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
+    "static/media/05-Ford-GT-002-1000x667.jpg": "/Portfolio_preBuild/static/media/05-Ford-GT-002-1000x667.6e1bdec427f145c3f839.jpg",
     "static/media/OstrichSans-Heavy.otf": "/Portfolio_preBuild/static/media/OstrichSans-Heavy.3a837cdeafd6547e8439.otf",
     "index.html": "/Portfolio_preBuild/index.html",
-    "main.645b23e6.css.map": "/Portfolio_preBuild/static/css/main.645b23e6.css.map",
-    "main.f0b30c16.js.map": "/Portfolio_preBuild/static/js/main.f0b30c16.js.map",
+    "main.430cf49c.css.map": "/Portfolio_preBuild/static/css/main.430cf49c.css.map",
+    "main.91eb4fb3.js.map": "/Portfolio_preBuild/static/js/main.91eb4fb3.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.645b23e6.css",
-    "static/js/main.f0b30c16.js"
+    "static/css/main.430cf49c.css",
+    "static/js/main.91eb4fb3.js"
   ]
 }
