@@ -18,7 +18,7 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Portfolio_preBuild/" element={<Home />} />
           <Route path="/project/:id" element={<ProjectMain />} />
         </Routes>
       </Router>
