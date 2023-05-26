@@ -4,7 +4,7 @@
 }
 
 .project__card {
-    max-width: 370px;
+    max-width: 470px;
     height: auto;
     background-color: rgba(91, 87, 87, 0.775);
     box-shadow: rgb(167, 75, 75);
@@ -19,9 +19,9 @@
 }
 
 .project__card-item img {
-    width: 300px;
-    height: 200px; /* Задайте желаемую высоту для изображений */
-    object-fit: cover; /* Масштабирование изображения */
+    width: 400px;
+    height: 250px;
+    object-fit: cover; 
     overflow: hidden;
     border-radius: 10px;
     margin: 10px;
@@ -31,4 +31,18 @@
 .project__card-title {
     color: aliceblue;
     padding-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 460px) {
+    .project__card-item img {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .project__card-item img {
+        width: 280px;
+        height: 200px;
+    }
 }

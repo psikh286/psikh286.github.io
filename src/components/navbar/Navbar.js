@@ -31,7 +31,7 @@ const Navbar = () => {
                           Portfolio
     
                         </NavLink> */}
-                        <a href="#section" className="navbar__links"> Projects</a>
+                        <a href="#section" className="navbar__links"> Portfolio</a>
                     </li>
                     <li className="navbar__list-main">
                         <NavLink to='/contacts' className={({isActive}) => 

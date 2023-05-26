@@ -179,15 +179,13 @@
         }
 }
 @media only screen and (max-width: 440px) {
-    /* .list-main-num {
-        font-size: 0.4rem;
-        }
-        .list-main-text {
-        font-size: 0.4rem;
-        } */
         .doombar-list-main {
             margin: 3px;
             padding: 3px;
+        }
+        .header__info-main {
+            font-size: 62px;
+            line-height: 62px;
         }
 }
 @media only screen and (max-width: 320px) {

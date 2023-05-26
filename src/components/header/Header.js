@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="header__info">
                     <div className="header__info-container">
                         <p className="header__info-main">Alan<br/>Berberov</p>
-                        <p className="header__info-gamedev">Game Developer, technical designer</p>
+                        <p className="header__info-gamedev">Game Developer & technical designer</p>
                     </div>
                 </div>
             </div>

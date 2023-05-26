@@ -48,6 +48,10 @@ p {
     margin-top: 160px;
 }
 
+.projects__title {
+    font-size: 60px;
+}
+
 .projects__container {
     display: flex;
     justify-content: center;
