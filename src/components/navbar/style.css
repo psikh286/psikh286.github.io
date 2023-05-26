@@ -34,6 +34,7 @@
 
 .navbar__list-main a {
     color: rgb(50, 40, 40);
+    padding: 0 15px;
 }
 
 
@@ -69,6 +70,18 @@
     box-shadow: 0px 0px 32px 10px rgba(164, 221, 222, 0.778);
     z-index: -1;
 }
+
+.active-btn {
+    background-color: red;
+    width: 52px;
+    height: 20px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+
 
 @media only screen and (max-width: 401px) {
     .navbar__container{
