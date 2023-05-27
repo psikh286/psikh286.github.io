@@ -19,9 +19,9 @@ const Navbar = () => {
         function magic() {
           if (activeBtnRef.current) {
             if (window.pageYOffset > 960) {
-              activeBtnRef.current.style.margin = "0 0 0 71px";
+              activeBtnRef.current.style.margin = "0 0 0 62px";
             } else {
-              activeBtnRef.current.style.margin = "0";
+              activeBtnRef.current.style.margin = "0 0 0 -10px";
             }
           }
         }
@@ -33,10 +33,7 @@ const Navbar = () => {
         };
       }, []);
       
-    return ( 
-
-
-
+    return (
         <nav className="navbar">
             <div className="navbar__container">
                 <ul className="navbar__list">
