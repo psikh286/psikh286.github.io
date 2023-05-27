@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_preBuild/static/css/main.430cf49c.css",
-    "main.js": "/Portfolio_preBuild/static/js/main.91eb4fb3.js",
+    "main.css": "/Portfolio_preBuild/static/css/main.1fb8a53b.css",
+    "main.js": "/Portfolio_preBuild/static/js/main.f2f4899a.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js",
     "static/media/3d_girl_half_size.jpg": "/Portfolio_preBuild/static/media/3d_girl_half_size.7c40005d8ef43b364fc3.jpg",
     "static/media/3d_girl_head.jpg": "/Portfolio_preBuild/static/media/3d_girl_head.bfca96487326d5db147e.jpg",
@@ -14,12 +14,12 @@
     "static/media/05-Ford-GT-002-1000x667.jpg": "/Portfolio_preBuild/static/media/05-Ford-GT-002-1000x667.6e1bdec427f145c3f839.jpg",
     "static/media/OstrichSans-Heavy.otf": "/Portfolio_preBuild/static/media/OstrichSans-Heavy.3a837cdeafd6547e8439.otf",
     "index.html": "/Portfolio_preBuild/index.html",
-    "main.430cf49c.css.map": "/Portfolio_preBuild/static/css/main.430cf49c.css.map",
-    "main.91eb4fb3.js.map": "/Portfolio_preBuild/static/js/main.91eb4fb3.js.map",
+    "main.1fb8a53b.css.map": "/Portfolio_preBuild/static/css/main.1fb8a53b.css.map",
+    "main.f2f4899a.js.map": "/Portfolio_preBuild/static/js/main.f2f4899a.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.430cf49c.css",
-    "static/js/main.91eb4fb3.js"
+    "static/css/main.1fb8a53b.css",
+    "static/js/main.f2f4899a.js"
   ]
 }
