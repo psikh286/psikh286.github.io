@@ -11,7 +11,7 @@
 }
 
 .navbar__container {
-    background-color: #463e3e7b;
+    background-color: #463e3e22;
     border-radius: 50px;
     padding: 20px;
     width: 400px;
@@ -19,7 +19,7 @@
     margin: 0 auto;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0px 0px 34px 12px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 94px 3px rgba(0,0,0,0.48);;
 }
 
 .navbar__list {
@@ -34,12 +34,12 @@
 
 .navbar__list-main a {
     color: rgb(50, 40, 40);
+    padding: 0 15px;
 }
-
 
 .navbar__links {
     text-decoration: none;
-    transition: opacity 0.2s eas;
+    transition: all .1s ease-in-out;
 }
 
 .navbar__links:hover {
@@ -69,6 +69,25 @@
     box-shadow: 0px 0px 32px 10px rgba(164, 221, 222, 0.778);
     z-index: -1;
 }
+
+.active-btn {
+    background: -webkit-linear-gradient(0deg, rgb(182, 226, 216) 60%, rgb(164, 221, 222) 90%);
+    background: -moz-linear-gradient(0deg, rgb(182, 226, 216) 60%, rgb(164, 221, 222) 90%);
+    background: linear-gradient(0deg, rgb(182, 226, 216) 60%, rgb(164, 221, 222) 90%);
+    box-shadow: 0px 0px 32px 10px rgba(164, 221, 222, 0.778);
+    width: 74px;
+    height: 28px;
+    border-radius: 50px;
+    position: absolute;
+    z-index: -1;
+    top: 26px;
+    transition: all 0.3s;
+    margin: 0 0 0 -10px;
+}
+
+
+
+
 
 @media only screen and (max-width: 401px) {
     .navbar__container{
