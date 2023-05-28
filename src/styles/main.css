@@ -9,7 +9,9 @@
     /* font-family: sans-serif; */
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -64,8 +66,8 @@ p {
 }
 
 .projects {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     row-gap: 30px;
     column-gap: 30px;
@@ -106,4 +108,12 @@ p {
 	margin-bottom: 40px;
 
     border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 910px) {
+    .projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

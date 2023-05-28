@@ -1,7 +1,7 @@
 import ProjectCard from "../components/project/ProjectCard.js";
 import { projects } from "../helpers/projectList";
 
-// import '../styles/main.css'
+import '../styles/main.css'
 
 const Projects = () => {
 
@@ -23,7 +23,6 @@ const Projects = () => {
                         )
                     })}
 
-                    { console.log(projects[0]) }
                 </ul>
             </div>
         </main>
