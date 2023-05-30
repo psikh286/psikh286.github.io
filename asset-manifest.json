@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_preBuild/static/css/main.1fb8a53b.css",
-    "main.js": "/Portfolio_preBuild/static/js/main.f2f4899a.js",
+    "main.css": "/Portfolio_preBuild/static/css/main.f4b21a00.css",
+    "main.js": "/Portfolio_preBuild/static/js/main.e94c3e17.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js",
     "static/media/3d_girl_half_size.jpg": "/Portfolio_preBuild/static/media/3d_girl_half_size.7c40005d8ef43b364fc3.jpg",
     "static/media/3d_girl_head.jpg": "/Portfolio_preBuild/static/media/3d_girl_head.bfca96487326d5db147e.jpg",
@@ -13,13 +13,22 @@
     "static/media/VCR_OSD_MONO_1.001.ttf": "/Portfolio_preBuild/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
     "static/media/05-Ford-GT-002-1000x667.jpg": "/Portfolio_preBuild/static/media/05-Ford-GT-002-1000x667.6e1bdec427f145c3f839.jpg",
     "static/media/OstrichSans-Heavy.otf": "/Portfolio_preBuild/static/media/OstrichSans-Heavy.3a837cdeafd6547e8439.otf",
+    "static/media/twitter.png": "/Portfolio_preBuild/static/media/twitter.8926ec403245c8601a84.png",
+    "static/media/github.png": "/Portfolio_preBuild/static/media/github.05f6c17b8cd04c28456f.png",
+    "static/media/c-sharp-logo.svg": "/Portfolio_preBuild/static/media/c-sharp-logo.da61d4ef0dbbfd63b22fd99950989aaf.svg",
+    "static/media/blender-3d.svg": "/Portfolio_preBuild/static/media/blender-3d.65185363bf7947c1b34295643aba0bec.svg",
+    "static/media/twitter.svg": "/Portfolio_preBuild/static/media/twitter.c759977ca496dcf52ec2c8797a411d1a.svg",
+    "static/media/unity.svg": "/Portfolio_preBuild/static/media/unity.03cafb12af52b9268e531aca13d1dfd5.svg",
+    "static/media/github.svg": "/Portfolio_preBuild/static/media/github.c929f7644bec7dbde50e11573e1e4ab9.svg",
     "index.html": "/Portfolio_preBuild/index.html",
-    "main.1fb8a53b.css.map": "/Portfolio_preBuild/static/css/main.1fb8a53b.css.map",
-    "main.f2f4899a.js.map": "/Portfolio_preBuild/static/js/main.f2f4899a.js.map",
+    "static/media/unreal-engine.svg": "/Portfolio_preBuild/static/media/unreal-engine.8e6144568162e7da697eb3323278a2db.svg",
+    "static/media/linkedin.svg": "/Portfolio_preBuild/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
+    "main.f4b21a00.css.map": "/Portfolio_preBuild/static/css/main.f4b21a00.css.map",
+    "main.e94c3e17.js.map": "/Portfolio_preBuild/static/js/main.e94c3e17.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fb8a53b.css",
-    "static/js/main.f2f4899a.js"
+    "static/css/main.f4b21a00.css",
+    "static/js/main.e94c3e17.js"
   ]
 }
