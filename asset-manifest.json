@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio_preBuild/static/css/main.454e3f28.css",
-    "main.js": "/Portfolio_preBuild/static/js/main.b4935a46.js",
+    "main.js": "/Portfolio_preBuild/static/js/main.f8e88b0e.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js",
-    "static/media/3d_girl_half_size.jpg": "/Portfolio_preBuild/static/media/3d_girl_half_size.7c40005d8ef43b364fc3.jpg",
-    "static/media/3d_girl_head.jpg": "/Portfolio_preBuild/static/media/3d_girl_head.bfca96487326d5db147e.jpg",
-    "static/media/3d_girl_full_size.jpg": "/Portfolio_preBuild/static/media/3d_girl_full_size.0524d6ac2457e7a9fa27.jpg",
-    "static/media/random_character.png": "/Portfolio_preBuild/static/media/random_character.cd67fe8e0dcb68f9341a.png",
-    "static/media/random_game1.jpg": "/Portfolio_preBuild/static/media/random_game1.b4228cadd8cb5c37fa44.jpg",
+    "static/media/3d_girl_half_size.webp": "/Portfolio_preBuild/static/media/3d_girl_half_size.c2f3d53f9f1f5ebe1630.webp",
+    "static/media/3d_girl_head.webp": "/Portfolio_preBuild/static/media/3d_girl_head.cde47c434c113f9a7315.webp",
+    "static/media/random_character.webp": "/Portfolio_preBuild/static/media/random_character.84d088f6fc6bf5cac673.webp",
+    "static/media/3d_girl_full_size.webp": "/Portfolio_preBuild/static/media/3d_girl_full_size.69a921bcb236d76384a6.webp",
+    "static/media/random_game1.webp": "/Portfolio_preBuild/static/media/random_game1.8ef2ba719ef3db14be11.webp",
     "static/media/pixil-frame-2.png": "/Portfolio_preBuild/static/media/pixil-frame-2.6853f1bb71d59b7ea6ad.png",
     "static/media/1998_MercedesBenz_CLKGTRStraenversion1.jpg": "/Portfolio_preBuild/static/media/1998_MercedesBenz_CLKGTRStraenversion1.9baef6eec069c253babd.jpg",
     "static/media/VCR_OSD_MONO_1.001.ttf": "/Portfolio_preBuild/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
-    "static/media/05-Ford-GT-002-1000x667.jpg": "/Portfolio_preBuild/static/media/05-Ford-GT-002-1000x667.6e1bdec427f145c3f839.jpg",
+    "static/media/05-Ford-GT-002-1000x667.webp": "/Portfolio_preBuild/static/media/05-Ford-GT-002-1000x667.9a0c18c78b29f6ab4dfc.webp",
     "static/media/OstrichSans-Heavy.otf": "/Portfolio_preBuild/static/media/OstrichSans-Heavy.3a837cdeafd6547e8439.otf",
     "static/media/twitter.png": "/Portfolio_preBuild/static/media/twitter.8926ec403245c8601a84.png",
     "static/media/github.png": "/Portfolio_preBuild/static/media/github.05f6c17b8cd04c28456f.png",
@@ -24,11 +24,11 @@
     "static/media/unreal-engine.svg": "/Portfolio_preBuild/static/media/unreal-engine.8e6144568162e7da697eb3323278a2db.svg",
     "static/media/linkedin.svg": "/Portfolio_preBuild/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
     "main.454e3f28.css.map": "/Portfolio_preBuild/static/css/main.454e3f28.css.map",
-    "main.b4935a46.js.map": "/Portfolio_preBuild/static/js/main.b4935a46.js.map",
+    "main.f8e88b0e.js.map": "/Portfolio_preBuild/static/js/main.f8e88b0e.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.454e3f28.css",
-    "static/js/main.b4935a46.js"
+    "static/js/main.f8e88b0e.js"
   ]
 }
