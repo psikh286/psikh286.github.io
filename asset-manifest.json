@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_preBuild/static/css/main.d2dce6f3.css",
-    "main.js": "/Portfolio_preBuild/static/js/main.f8e88b0e.js",
+    "main.js": "/Portfolio_preBuild/static/js/main.97871d42.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js",
     "static/media/3d_girl_half_size.webp": "/Portfolio_preBuild/static/media/3d_girl_half_size.c2f3d53f9f1f5ebe1630.webp",
     "static/media/3d_girl_head.webp": "/Portfolio_preBuild/static/media/3d_girl_head.cde47c434c113f9a7315.webp",
@@ -24,11 +24,11 @@
     "static/media/unreal-engine.svg": "/Portfolio_preBuild/static/media/unreal-engine.8e6144568162e7da697eb3323278a2db.svg",
     "static/media/linkedin.svg": "/Portfolio_preBuild/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
     "main.d2dce6f3.css.map": "/Portfolio_preBuild/static/css/main.d2dce6f3.css.map",
-    "main.f8e88b0e.js.map": "/Portfolio_preBuild/static/js/main.f8e88b0e.js.map",
+    "main.97871d42.js.map": "/Portfolio_preBuild/static/js/main.97871d42.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio_preBuild/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2dce6f3.css",
-    "static/js/main.f8e88b0e.js"
+    "static/js/main.97871d42.js"
   ]
 }
