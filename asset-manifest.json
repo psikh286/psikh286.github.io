@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.27a9160e.css",
+    "main.css": "/static/css/main.cdc9bd80.css",
     "main.js": "/static/js/main.9957300a.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/3d_girl_half_size.webp": "/static/media/3d_girl_half_size.c2f3d53f9f1f5ebe1630.webp",
@@ -21,15 +21,15 @@
     "static/media/twitter.svg": "/static/media/twitter.c759977ca496dcf52ec2c8797a411d1a.svg",
     "static/media/unity.svg": "/static/media/unity.03cafb12af52b9268e531aca13d1dfd5.svg",
     "static/media/github.svg": "/static/media/github.c929f7644bec7dbde50e11573e1e4ab9.svg",
-    "static/media/unreal-engine.svg": "/static/media/unreal-engine.8e6144568162e7da697eb3323278a2db.svg",
     "index.html": "/index.html",
+    "static/media/unreal-engine.svg": "/static/media/unreal-engine.8e6144568162e7da697eb3323278a2db.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
-    "main.27a9160e.css.map": "/static/css/main.27a9160e.css.map",
+    "main.cdc9bd80.css.map": "/static/css/main.cdc9bd80.css.map",
     "main.9957300a.js.map": "/static/js/main.9957300a.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27a9160e.css",
+    "static/css/main.cdc9bd80.css",
     "static/js/main.9957300a.js"
   ]
 }
