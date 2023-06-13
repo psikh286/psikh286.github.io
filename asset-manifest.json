@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.258517fb.css",
-    "main.js": "/static/js/main.85c86cb5.js",
+    "main.js": "/static/js/main.dc25345f.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/3d_girl_half_size.jpg": "/static/media/3d_girl_half_size.7c40005d8ef43b364fc3.jpg",
     "static/media/3d_girl_full_size.jpg": "/static/media/3d_girl_full_size.0524d6ac2457e7a9fa27.jpg",
     "static/media/Craft_1.png": "/static/media/Craft_1.5a04532bad97da6d45de.png",
     "static/media/Craft.png": "/static/media/Craft.99e8a745284c062582ee.png",
@@ -14,8 +13,6 @@
     "static/media/VCR_OSD_MONO_1.001.ttf": "/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
     "static/media/Gravity.png": "/static/media/Gravity.69aa09d1dae244e787a2.png",
     "static/media/OstrichSans-Heavy.otf": "/static/media/OstrichSans-Heavy.3a837cdeafd6547e8439.otf",
-    "static/media/twitter.png": "/static/media/twitter.8926ec403245c8601a84.png",
-    "static/media/github.png": "/static/media/github.05f6c17b8cd04c28456f.png",
     "static/media/itch-io.svg": "/static/media/itch-io.40fe855d8407f3c565a0e64ee32b50a0.svg",
     "static/media/c-sharp-logo.svg": "/static/media/c-sharp-logo.da61d4ef0dbbfd63b22fd99950989aaf.svg",
     "static/media/blender-3d.svg": "/static/media/blender-3d.65185363bf7947c1b34295643aba0bec.svg",
@@ -26,11 +23,11 @@
     "static/media/unreal-engine.svg": "/static/media/unreal-engine.8e6144568162e7da697eb3323278a2db.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
     "main.258517fb.css.map": "/static/css/main.258517fb.css.map",
-    "main.85c86cb5.js.map": "/static/js/main.85c86cb5.js.map",
+    "main.dc25345f.js.map": "/static/js/main.dc25345f.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.258517fb.css",
-    "static/js/main.85c86cb5.js"
+    "static/js/main.dc25345f.js"
   ]
 }
