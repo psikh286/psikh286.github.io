@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a143287.css",
-    "main.js": "/static/js/main.f21d1f11.js",
+    "main.css": "/static/css/main.8e0887d2.css",
+    "main.js": "/static/js/main.93c24206.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/PartyChaos_cover.png": "/static/media/PartyChaos_cover.f7c63f971e81f029f5c7.png",
     "static/media/Craft_1.png": "/static/media/Craft_1.5a04532bad97da6d45de.png",
@@ -25,12 +25,12 @@
     "static/media/github.svg": "/static/media/github.c929f7644bec7dbde50e11573e1e4ab9.svg",
     "static/media/unreal-engine.svg": "/static/media/unreal-engine.8e6144568162e7da697eb3323278a2db.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
-    "main.6a143287.css.map": "/static/css/main.6a143287.css.map",
-    "main.f21d1f11.js.map": "/static/js/main.f21d1f11.js.map",
+    "main.8e0887d2.css.map": "/static/css/main.8e0887d2.css.map",
+    "main.93c24206.js.map": "/static/js/main.93c24206.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a143287.css",
-    "static/js/main.f21d1f11.js"
+    "static/css/main.8e0887d2.css",
+    "static/js/main.93c24206.js"
   ]
 }
