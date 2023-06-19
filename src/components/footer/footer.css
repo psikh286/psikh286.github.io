@@ -1,0 +1,32 @@
+
+.footer {
+	margin-top: auto;
+	padding: 15px 0 15px;
+	background-color: rgb(73, 62, 53);
+    color: aliceblue;
+}
+
+.footer__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.social {
+	display: flex;
+	column-gap: 30px;
+	align-items: center;
+}
+
+.copyright {
+	font-size: 16px;
+	font-family: "Space grotesk";
+}
+.copyright a {
+	text-decoration: none;
+	color: #FFFCF2;
+}
+
+.copyright a + a {
+	margin-top: 0.5em;
+}

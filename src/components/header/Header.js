@@ -1,20 +1,16 @@
-// import backgroundImg from "../../img/3d_girl_full_size.jpg"
 import './header.css'
+import { Element } from 'react-scroll';
 
 const Header = () => {
     return ( 
-        <div className="header">
+        <Element className="header" id='header'>
             <div className="header__container">
-                {/* <div className="header__background">
-                    <img className="header__background-img" src={backgroundImg} alt="background_info" />
-                </div> */}
                 <div className="header__info">
                     <div className="header__info-container">
                         <p className="header__info-main">Alan<br/>Berberov</p>
                         <p className="header__info-gamedev">Game Developer & technical designer</p>
                     </div>
                 </div>
-            </div>
             <div className="header__doombar">
                 <div className="header__doombar-list">
                     <div className="doombar-list-main"> <p className="list-main-num">84%</p> <p className="list-main-text">C#</p></div>
@@ -25,7 +21,8 @@ const Header = () => {
                     <div className="doombar-list-main"> <p className="list-main-num">90%</p><p className="list-main-text">Unity</p></div>
                 </div>
             </div>
-        </div>
+            </div>
+        </Element>
      );
 }
  

@@ -1,13 +1,15 @@
 import "./styles/main.css"
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 
 
-import Navbar from "./components/navbar/Navbar";
+// import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
 import ProjectMain from "./pages/ProjectMain";
 import ScrollToTop from "./components/utils/scrollToTop";
+import Footer from "./components/footer/Footer";
+import Upbtn from "./components/Upbtn/Upbtn";
 
 
 
@@ -16,12 +18,14 @@ function App() {
     <div className="App">
       <Router>
         <ScrollToTop />
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
-          <Route path="/Portfolio_preBuild" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/project/:id" element={<ProjectMain />} />
         </Routes>
       </Router>
+      <Upbtn />
+      <Footer />
     </div>
   );
 }

@@ -1,23 +1,21 @@
 @font-face {
     font-family: bitArcade;
-    src: url(../../fonts/VCR_OSD_MONO_1.001.ttf);
+    src: url(../../fonts/Pixel\ Tactical.otf);
 }
 
 
 .header {
     display: block;
-    background-color: rgb(133, 140, 118);
+    /* background-color: rgb(133, 140, 118); */
 }
 
 .header__container {
-    min-height: 100vh;
-    /* width: 100%; */
+    height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    background-color: #353535;
 }
 .header__background {
     height: 100%;
@@ -49,6 +47,7 @@
     padding: 8%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    /* background-color: rgb(133, 140, 118); */
 }
 .header__info-container {
     display: flex;
@@ -67,7 +66,7 @@
 .header__info-main {
     font-size: 72px;
     line-height: 72px;
-    color: aliceblue;
+    color: #FFFCF2;
     text-shadow: 7px 1px 9px rgba(40,17,11,0.68);
 }
 .header__info-gamedev{
@@ -99,7 +98,7 @@
 
 .header__doombar-list {
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     justify-content: center;
     bottom: 0;
     width: 100%;
@@ -146,6 +145,10 @@
         .header__doombar {
             text-shadow: 2px 2px 1px rgba(37,16,10,0.6);
         }
+        .header__info-main {
+            font-size: 60px;
+            line-height: 52px;
+        }
 }
 
 @media only screen and (max-width: 825px) {
@@ -187,14 +190,19 @@
         }
 }
 @media only screen and (max-width: 440px) {
+        .header__doombar-list {
+            border: 2px solid rgba(182, 180, 180, 0.574);
+        }
         .doombar-list-main {
             margin: 3px;
             padding: 3px;
+            border: 2px solid rgba(161, 158, 158, 0.574);
         }
         .header__info-main {
             font-size: 62px;
             line-height: 62px;
         }
+        
 }
 @media only screen and (max-width: 320px) {
     .list-main-num {
@@ -203,4 +211,14 @@
         .list-main-text {
         font-size: 0.4rem;
         }
+}
+
+@media only screen and (max-width: 340px) {
+    .header__info-main {
+        font-size: 52px;
+        line-height: 48px;
+    }
+    .header__info-gamedev {
+        font-size: 18px;
+    }
 }
