@@ -18,7 +18,6 @@ import geneticsCover from '../img/Genetics_cover.png'
 
 import soundOfTheRoadCover from '../img/SoundOfTheRoad_cover.png'
 
-
 const projects = [
     {
         "id": 0,
