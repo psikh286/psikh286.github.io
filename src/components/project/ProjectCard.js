@@ -5,8 +5,8 @@ const ProjectCard = ({title, img, index}) => {
     return ( 
         <NavLink to={`/project/${index}`} className='project__card'>
             <li className="project__card-item">
-                <img src={img} alt="project_img"/>
-                <p className="project__card-title">{title}</p>
+                <img className="project__card-img" src={img} alt="project_img"/>
+                {/* <p className="project__card-title">{title}</p> */}
             </li>
         </NavLink>
      );

@@ -1,0 +1,111 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 165px;
+    padding-top: 265px;
+}
+
+.about__header-title{
+    font-size: 60px;
+    color: #FFFCF2;
+}
+
+.about__container {
+    /* display: flex; */
+    width: 40%;
+    padding: 20px;
+    color: rgb(200, 207, 214);
+    background-color: rgba(60, 49, 81, 0.884);
+    border-radius: 15px;
+}
+
+.about__title {
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.about__text {
+    font-size: 1.45rem;
+    line-height: 2rem;
+    padding-top: 15px;
+    font-family: "Space Grotesk";
+}
+
+.about__info {
+    padding: 15px;
+    color: #FFFCF2;
+}
+
+.about__skills {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFCF2;
+}
+
+.about__skills-list {
+    display: flex;
+}
+
+.about__skils-item {
+    display: flex;
+    flex-direction: row;
+}
+.about__skils-item-img {
+    padding: 10px;
+}
+
+@media only screen and (max-width:1024px) {
+    
+    .about {
+        padding-top: 200px;
+    }
+    .about__container {
+        width: 60%;
+    }
+    .about__title {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    
+    .about__text {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .about__container {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .about {
+        /* padding-top: 180px; */
+    }
+    .about__container {
+        width: 80%;
+    }
+    .about__title {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    
+    .about__text {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .about__skils-item-img {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .about__skils-item {
+        flex-direction: column;
+    }
+}

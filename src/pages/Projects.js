@@ -1,13 +1,32 @@
 import ProjectCard from "../components/project/ProjectCard.js";
 import { projects } from "../helpers/projectList";
 
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+
 import '../styles/main.css'
+
+
+
+// const doSome = function(text) {
+//     text = 'sectionScroll'
+//     console.log(text);
+//     scroller.scrollTo("sectionScroll", {
+//       duration: 0,
+//       delay: 0,
+//       smooth: true,
+//       offset: 50, 
+
+//     })
+// }
 
 const Projects = () => {
 
+
     
+
     return ( 
-        <main id="section">
+        <Element id="section" name="sectionScroll">
             <h1 className="projects__title">Projects</h1>
             <div className="projects__container">
                 <ul className="projects">
@@ -25,8 +44,9 @@ const Projects = () => {
 
                 </ul>
             </div>
-        </main>
+        </Element>
      );
 }
  
-export default Projects;
+
+export default (Projects);
