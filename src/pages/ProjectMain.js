@@ -6,34 +6,16 @@ import { projects } from "../helpers/projectList";
 
 import gitIcon from '../img/github.svg'
 import itchIcon from '../img/itch-io.svg'
-
-function createLinksInText(text) {
-
-    const descr = text.descr.split(" ");
-
-    return descr.map(element => element.includes(text.hyperlink) ? <a href={text.url} target="_blank" rel="noreferrer">{element} </a> : `${element} `)
-  }
-
-function createLinksInText2(text) {
-
-    const descr = text.info.split(" ");
-
-    return descr.map(element => element.includes(text.hyperlink2) ? <a href={text.url2} target="_blank" rel="noreferrer">{element} </a> : `${element} `)
-  }
-
-
     
 const ProjectMain = () => {
     const {id} = useParams();
     const project = projects[id];
-
     
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-
-
-
+    
+    
     return ( 
         <div className="container">
             <div className="container-img">
@@ -51,12 +33,12 @@ const ProjectMain = () => {
                     <div className="project-main-info">
                         <ul className="main-info-list">
                             <h2>Project Details</h2>
-                            <li>Roles:{project.roles}</li>
-                            <li>Semester:{project.semester}</li>
+                            <li>Roles: {project.roles}</li>
+                            <li>Semester: {project.semester}</li>
                             <li>Team Size: {project.teamSize}</li>
-                            <li>Time Spent:{project.time}</li>
-                            <li>Date:{project.date}</li>
-                            <li>Engine:{project.engine}</li>
+                            <li>Time Spent: {project.time}</li>
+                            <li>Date: {project.date}</li>
+                            <li>Engine: {project.engine}</li>
                         </ul>
                     </div>
 
@@ -86,7 +68,6 @@ const ProjectMain = () => {
                                 </div>
 
                                 <div className="descr-text">
-                                    {/* <p className="descr-text-main">{createLinksInText(project)}</p> */}
                                     <p className="descr-text-main" dangerouslySetInnerHTML={{__html: project.descr}}></p>
                                 </div>
                             </div>
@@ -99,7 +80,6 @@ const ProjectMain = () => {
                                 </div>
 
                                 <div className="descr-text">
-                                    {/* <p className="descr-text-main">{createLinksInText2(project)}</p> */}
                                     <p className="descr-text-main" dangerouslySetInnerHTML={{__html: project.info}}></p>
                                 </div>
                             </div>
