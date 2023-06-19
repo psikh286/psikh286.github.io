@@ -6,25 +6,7 @@ import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scro
 
 import '../styles/main.css'
 
-
-
-// const doSome = function(text) {
-//     text = 'sectionScroll'
-//     console.log(text);
-//     scroller.scrollTo("sectionScroll", {
-//       duration: 0,
-//       delay: 0,
-//       smooth: true,
-//       offset: 50, 
-
-//     })
-// }
-
 const Projects = () => {
-
-
-    
-
     return ( 
         <Element id="section" name="sectionScroll">
             <h1 className="projects__title">Projects</h1>
@@ -33,11 +15,8 @@ const Projects = () => {
                     {projects.map((project, index) => {
                         return (
                             <ProjectCard
-                                key={project.id}
-                                title={project.title}
-                                description={project.description}
                                 img={project.img}
-                                index={index}
+                                index={project.id}
                             />
                         )
                     })}

@@ -21,7 +21,7 @@ function App() {
         {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project/:id" element={<ProjectMain />} />
+          <Route path="/project/:ids" element={<ProjectMain />} />
         </Routes>
       </Router>
       <Upbtn />
