@@ -9,9 +9,6 @@
     box-sizing: border-box;
 }
 
-html {
-    /* scroll-behavior: smooth; */
-}
 
 
 #root {
@@ -121,11 +118,6 @@ p {
 .container-project {
   margin: 0 auto;
 	padding: 0 15px;
-
-  background-image: url(../img/image.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  object-fit: cover;
 }
 
 .project-main {
