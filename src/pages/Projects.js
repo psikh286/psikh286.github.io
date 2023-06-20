@@ -16,7 +16,7 @@ const Projects = () => {
                         return (
                             <ProjectCard
                                 img={project.cover}
-                                index={project.id}
+                                index={index}
                             />
                         )
                     })}
