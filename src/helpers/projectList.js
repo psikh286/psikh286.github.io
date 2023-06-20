@@ -7,12 +7,20 @@ import tenSecondCover from '../img/10Sec_cover.png'
 
 import tenSecond02 from '../img/10Seconds_1.png'
 
-import slimyCover from '../img/Slimy_cover.png'
+import slimyCover from '../img/slimy/Slimy_cover.png'
+import slimyMainImage from '../img/slimy/Slimy_main.png'
+import slimyImage0 from '../img/slimy/Slimy_0.png'
+import slimyImage1 from '../img/slimy/Slimy_1.png'
 
-import eotwCover from '../img/EOTW_cover.png'
+import eotwCover from '../img/eotw/EOTW_cover.png'
+import eotwMainImage from '../img/eotw/EOTW_main.png'
+import eotwImage0 from '../img/eotw/EOTW_cover.png'
+import eotwImage1 from '../img/eotw/EOTW_cover.png'
 
 import partyChaosCover from '../img/partyChaos/PartyChaos_cover.png'
-import partyChaosMainImage from '../img/partyChaos/PartyChaos_cover.png'
+import partyChaosMainImage from '../img/partyChaos/PartyChaos_0.png'
+import partyChaosImage0 from '../img/partyChaos/PartyChaos_1.png'
+import partyChaosImage1 from '../img/partyChaos/PartyChaos_5.png'
 
 import geneticsCover from '../img/Genetics_cover.png'
 
@@ -20,19 +28,96 @@ import soundOfTheRoadCover from '../img/SoundOfTheRoad_cover.png'
 
 const projects = [
     {
+        //ON MAIN PAGE
         "title" : "Party Chaos",
-        "info" : "How productive I am",
+        "coverInfo" : "How productive I am",
         "cover" : partyChaosCover,
-        
-        "mainImg" : partyChaosMainImage,
-        
+
+        //DETAILS
         "roles" : "Programmer, Game Designer",
         "semester": "2nd",
         "teamSize": "2",
         "time": "100 hours (in 2 weeks tho)",
         "date": "30.05.2022",
-        "engine": "Unity Engine"
+        "engine": "Unity Engine",
+
+        //BUTTONS
+        "gitHub": null,
+        "itch": "https://psikh286.itch.io/party-chaos",
+        
+        //IMAGES
+        "mainImg" : partyChaosMainImage,
+        "images" : [
+            partyChaosImage0,
+            partyChaosImage1            
+        ],
+        
+        //TEXT
+        "info" : "aboba",
+        "problems" : "aboba",
+        "solutions" : "aboba"
     },
+    {
+        //ON MAIN PAGE
+        "title" : "End Of The World",
+        "coverInfo" : "Aboba?",
+        "cover" : eotwCover,
+
+        //DETAILS
+        "roles" : "Programmer, Game Designer",
+        "semester": "2nd",
+        "teamSize": "1",
+        "time": "8 hours",
+        "date": "02.05.2022",
+        "engine": "Unity Engine",
+
+        //BUTTONS
+        "gitHub": "https://github.com/psikh286/EOTW",
+        "itch": "https://psikh286.itch.io/end-of-the-world",
+
+        //IMAGES
+        "mainImg" : eotwMainImage,
+        "images" : [
+            eotwImage0,
+            eotwImage1
+        ],
+
+        //TEXT
+        "info" : "aboba",
+        "problems" : "aboba",
+        "solutions" : "aboba"
+    },
+    {
+        //ON MAIN PAGE
+        "title" : "Slimy",
+        "coverInfo" : "My first solo Unity Project",
+        "cover" : slimyCover,
+
+        //DETAILS
+        "roles" : "Programmer, Game Designer",
+        "semester": "2nd",
+        "teamSize": "1",
+        "time": "8 hours",
+        "date": "02.05.2022",
+        "engine": "Unity Engine",
+
+        //BUTTONS
+        "gitHub": "https://github.com/psikh286/Slimy",
+        "itch": "https://psikh286.itch.io/slimy",
+
+        //IMAGES
+        "mainImg" : slimyMainImage,
+        "images" : [
+            slimyImage0,
+            slimyImage1
+        ],
+
+        //TEXT
+        "info" : "aboba",
+        "problems" : "aboba",
+        "solutions" : "aboba"
+    },
+    
     
     
     {
@@ -91,34 +176,7 @@ const projects = [
         "gitHub": "https://github.com/psikh286/Slimy",
         "itch": "https://psikh286.itch.io/slimy"
     },
-    {
-        "title": "End of the world",
-        "descr": "This game was developed overnight in a single continuous session as part of the Game-A-Week course at the University. The entire design process, including a brief 3 am lunch break, was completed within that timeframe. The game's central focus is decision-making, challenging players to determine whether specie should be eliminated based on given factors. Quick thinking and a sharp memory are essential to succeed in this engaging experience.",
-        "info": "This project taught me the importance of executing tasks quickly and avoiding unnecessary polishing until the core components are ready. It was a valuable lesson in efficient time management and prioritizing essential elements over excessive refinement.",
-        "img": eotwCover,
-        "roles": "Programmer, Game Designer",
-        "semester": '2nd',
-        "teamSize": '1',
-        "time": "20 hours",
-        "date": "25.04.2022",
-        "engine": '',
-        "gitHub": "https://github.com/psikh286/EOTW",
-        "itch": "https://psikh286.itch.io/end-of-the-world"
-    },
-    {
-        "title": "Party Chaos",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus tristique metus, id sagittis ex tincidunt at.Aliquam erat volutpat. Sed interdum nulla vitae metus vulputate, id gravida enim rutrum. ",
-        "info": "какотйо гаме",
-        "img": partyChaosCover,
-        "roles": "Programmer, Game Designer",
-        "semester": '2nd',
-        "teamSize": '1',
-        "time": "20 hours",
-        "date": "25.04.2022",
-        "engine": '',
-        "gitHub": null ,
-        "itch": "sadsasdad"        
-    },
+    
     {
         "title": "Mendelian Genetics",
         "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus tristique metus, id sagittis ex tincidunt at.Aliquam erat volutpat. Sed interdum nulla vitae metus vulputate, id gravida enim rutrum. ",
