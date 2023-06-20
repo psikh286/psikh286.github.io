@@ -130,13 +130,17 @@ p {
 }
 
 .project-main {
-    margin: 0 auto;
-	max-width: 865px;
-
+  /* margin: 0 auto; */
+	padding: 20px 100px;
+  /* max-width: 865px; */
 	display: flex;
-	flex-direction: column;
+	/* flex-direction: column; */
 	align-items: center;
 	text-align: center;
+}
+
+.project-main-btns_with_info {
+  display: flex;
 }
 
 .project-main-info {
@@ -166,6 +170,12 @@ p {
 .project-main-buttons {
     display: flex;
     margin: 20px 0;
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-between;
 }
 
 .project-main-btn {
@@ -201,6 +211,10 @@ p {
 }
 .project-main-descriptions {
   color: #FFFCF2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
 .project-main-descriptions h2 {
   font-family: 'Space Mono', monospace;
@@ -209,7 +223,7 @@ p {
 
 .descr-card-img {
     height: 300px;
-    width: 450px;
+    /* width: 450px; */
 }
 
 .descr-card-img img {
