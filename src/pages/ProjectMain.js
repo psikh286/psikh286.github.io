@@ -8,8 +8,8 @@ import gitIcon from '../img/github.svg'
 import itchIcon from '../img/itch-io.svg'
     
 const ProjectMain = () => {
-    const {ids} = useParams();
-    const project = projects[ids];
+    const {id} = useParams();
+    const project = projects[id];
     
     console.log(useParams());
     
@@ -21,17 +21,14 @@ const ProjectMain = () => {
     return ( 
         <div className="container">
             <div className="container-img">
-                <img src={project.img} className="title-img-main" alt="dsa"></img>
+                <img src={project.mainImg} className="title-img-main" alt="dsa"></img>
 
                 <div className="arrow__container"><div className="arrows"></div></div>
 
             </div>
             <div className="container-project">    
                 <div className="project-main">
-                    <div className="project-main-title">
-
-
-                    </div>
+                    
                     <div className="project-main-info">
                         <ul className="main-info-list">
                             <h2>Project Details</h2>
@@ -58,8 +55,7 @@ const ProjectMain = () => {
                         </a> )}
                         
                     </div>
-
-
+                    
                     <div className="project-main-descriptions">
 
                             <h2 className="title">Description</h2>
