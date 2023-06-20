@@ -24,7 +24,10 @@ import partyChaosImage1 from '../img/partyChaos/PartyChaos_5.png'
 
 import geneticsCover from '../img/Genetics_cover.png'
 
-import soundOfTheRoadCover from '../img/SoundOfTheRoad_cover.png'
+import soundOfTheRoadCover from '../img/soundOfTheRoad/SoundOfTheRoad_cover.png'
+import soundOfTheRoadMainImage from '../img/soundOfTheRoad/SoundOfTheRoad_cover.png'
+import soundOfTheRoadImage0 from '../img/soundOfTheRoad/SoundOfTheRoad_cover.png'
+import soundOfTheRoadImage1 from '../img/soundOfTheRoad/SoundOfTheRoad_cover.png'
 
 const projects = [
     {
@@ -117,8 +120,66 @@ const projects = [
         "problems" : "aboba",
         "solutions" : "aboba"
     },
-    
-    
+    {
+        //ON MAIN PAGE
+        "title" : "Sound Of the Road",
+        "coverInfo" : "Desiner-friendly systems for huge team",
+        "cover" : soundOfTheRoadCover,
+
+        //DETAILS
+        "roles" : "Programmer, Game Designer",
+        "semester": "4nd",
+        "teamSize": "9(actually 7)",
+        "time": "40+ hours",
+        "date": "On-going",
+        "engine": "Unity Engine",
+
+        //BUTTONS
+        "gitHub": null,
+        "itch": "https://psikh286.itch.io/sound-of-the-road",
+
+        //IMAGES
+        "mainImg" : soundOfTheRoadMainImage,
+        "images" : [
+            soundOfTheRoadImage0,
+            soundOfTheRoadImage1
+        ],
+
+        //TEXT
+        "info" : "aboba",
+        "problems" : "aboba",
+        "solutions" : "aboba"
+    },
+    {
+        //ON MAIN PAGE
+        "title" : "Gravity Game",
+        "coverInfo" : "Desiner-friendly systems for huge team",
+        "cover" : soundOfTheRoadCover,
+
+        //DETAILS
+        "roles" : "Programmer, Game Designer",
+        "semester": "4nd",
+        "teamSize": "9(actually 7)",
+        "time": "40+ hours",
+        "date": "On-going",
+        "engine": "Unity Engine",
+
+        //BUTTONS
+        "gitHub": null,
+        "itch": "https://psikh286.itch.io/sound-of-the-road",
+
+        //IMAGES
+        "mainImg" : soundOfTheRoadMainImage,
+        "images" : [
+            soundOfTheRoadImage0,
+            soundOfTheRoadImage1
+        ],
+
+        //TEXT
+        "info" : "aboba",
+        "problems" : "aboba",
+        "solutions" : "aboba"
+    },
     
     {
         "title": "Gravity Game",
