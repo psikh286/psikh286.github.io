@@ -9,8 +9,6 @@
     box-sizing: border-box;
 }
 
-
-
 #root {
     min-height: 100vh;
 }
@@ -113,13 +111,19 @@ p {
     font-family: 'Bebas Neue', sans-serif;
 }
 
+.container_project {
+    height: 100vh;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .project-main {
     margin: 0 35px;
     padding: 50px 0;
-    height: 100vh;
 	display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
 
 .project-main-btns_with_info {
@@ -137,6 +141,8 @@ p {
 
 .main-info-list {
     grid-column: span 4;
+    padding: 10px;
+    line-height: 30px;
     width: 100%;
     height: 100%;
     background-color: #353535;
@@ -145,16 +151,11 @@ p {
 
 }
 
-.main-info-list h2 {
-    padding-bottom: 10px;
-}
 
 .main-info-list li {
     font-family: 'Space Grotesk', sans-serif;
     text-align: left;
-    list-style: disc;
     list-style: inside;
-    padding-left: 10px;
 }
 
 .project-main-buttons {
@@ -183,7 +184,11 @@ p {
 .project-main-images {
     grid-column: span 6;
     grid-row: 2;
+    display: flex; /* Добавление display: flex; */
+    align-items: center; /* Добавление выравнивания по центру */
+    justify-content: center; /* Добавление выравнивания по центру */
 }
+
 
 
 .project-main-descr-card {
@@ -207,6 +212,9 @@ p {
   font-weight: 900;
 }
 
+.descr-card-img {
+    aspect-ratio: 16/9;
+}
 
 .descr-card-img img {
     border-radius: 10px;
@@ -264,6 +272,17 @@ p {
 /* #region media */
 
 
+@media only screen and (max-width: 1070px) {
+    .container_project {
+        height: auto;
+    }
+
+    .project-main {
+        row-gap: 80px;
+    }
+}
+
+
 @media only screen and (max-width: 910px) {
     
     .projects > :last-child {
@@ -297,7 +316,6 @@ p {
     }
 }
 /* #endregion */
-
 
 
 /* ARROW */
