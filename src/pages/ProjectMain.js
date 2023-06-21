@@ -26,7 +26,6 @@ const ProjectMain = () => {
             </div>
 
 
-            <div className="container-project">
                 <div className="project-main">
                 <div className="project-main-details">
                     <ul className="main-info-list">
@@ -92,7 +91,6 @@ const ProjectMain = () => {
                     </div>
                 </div>
                 </div>
-            </div>
         </div>
     );
 }
