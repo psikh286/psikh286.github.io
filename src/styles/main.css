@@ -15,13 +15,16 @@
     min-height: 100vh;
 }
 
-
 .App {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+
+/* RESET */
+
+/* #region reset */
 
 body {
     margin: 0;
@@ -40,11 +43,18 @@ h1,h2,h3,h4 {
 ul {
     list-style: none;
     padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 p {
     margin: 0;
     padding: 0;
 }
+
+/* #endregion */
+
+
+/* PROJECTS */
 
 
 /* #region projects */
@@ -56,7 +66,6 @@ p {
     align-items: center;
     flex-direction: column;
     margin-top: 30px;
-    /* padding: 0 10%; */
 }
 
 .projects__title {
@@ -68,7 +77,6 @@ p {
 .projects__container {
     display: flex;
     justify-content: center;
-    /* font-family: OstrichSans; */
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -80,51 +88,36 @@ p {
     column-gap: 10px;
 }
 
-.projects > :last-child {
-    /* grid-column: span 2; */
-}
+
 
 /* #endregion */
 
 .navbar {
-    /* font-family: OstrichSans; */
     font-family: 'Bebas Neue', sans-serif;
 }
 
 .header__info {
-    /* font-family: OstrichSans; */
     font-family: 'Bebas Neue', sans-serif;
 }
 
 .footer {
-    /* font-family: OstrichSans; */
     font-family: 'Bebas Neue', sans-serif;
 
 }
 
 .about {
     font-family: 'Bebas Neue', sans-serif;
-    /* font-family: OstrichSans; */
 }
 
 .container {
-    /* top: 80px;
-    padding: 70px 0;
-    padding-top: 120px; */
-    /* font-family: OstrichSans; */
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.container-project {
-	margin: 0 35px;
-    padding: 50px 0;
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-}
 
 .project-main {
-	/* padding: 20px 100px; */
+    margin: 0 35px;
+    padding: 50px 0;
+    height: 100vh;
 	display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -136,7 +129,6 @@ p {
 .project-main-details {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    /* grid-template-rows: 40% 60%; */
     column-gap: 40px;
     row-gap: 40px;
 	align-items: center;
@@ -145,7 +137,6 @@ p {
 
 .main-info-list {
     grid-column: span 4;
-    /* padding: 40px; */
     width: 100%;
     height: 100%;
     background-color: #353535;
@@ -165,31 +156,7 @@ p {
     list-style: inside;
     padding-left: 10px;
 }
-/* 
-.project-main-info {
-    display: flex;
-    font-family: 'Space Mono', sans-serif;
-}
-.project-main-info p {
-    padding: 0 10px;
-}
 
-.main-info-list {
-    padding: 20px 50px;
-    margin: 20px 0;
-    column-gap: 5px;
-    background-color: #353535;
-    border-radius: 10px;
-    color: #FFFCF2;
-}
-.main-info-list h2 {
-  padding-bottom: 10px;
-}
-.main-info-list li {
-  font-family: 'Space Grotesk', sans-serif;
-  text-align: left;
-  list-style: disc;
-} */
 .project-main-buttons {
     display: flex;
     grid-column: span 2;
@@ -205,8 +172,6 @@ p {
     align-items: center;
     justify-content: center;
     padding: 6px;
-    /* margin: 0 20px; */
-    /* column-gap: 5px; */
     background-color: #353535;
     border-radius: 10px;
     color: #FFFCF2;
@@ -220,12 +185,6 @@ p {
     grid-row: 2;
 }
 
-/* .project-main-img {
-    max-width: 100%;
-	margin-bottom: 40px;
-
-    border-radius: 10px;
-} */
 
 .project-main-descr-card {
     display: grid;
@@ -248,18 +207,12 @@ p {
   font-weight: 900;
 }
 
-.descr-card-img {
-    /* aspect-ratio: 16/9; */
-    /* transform-origin: top left; */
-    /* scale: 0.7; */
-}
 
 .descr-card-img img {
     border-radius: 10px;
     box-shadow: 18px 18px 26px 6px rgba(34,60,80,.2);
     height: 100%;
     object-fit: cover;
-    overflow: hidden;
     width: 100%;
 }
 
@@ -305,6 +258,12 @@ p {
   color: #44ffaa;
 }
 
+
+/* MEDIA */
+
+/* #region media */
+
+
 @media only screen and (max-width: 910px) {
     
     .projects > :last-child {
@@ -312,12 +271,6 @@ p {
     }
 }
 
-
-@media only screen and (max-width: 1024px){
-    .descr-card-img {
-        height: 315px;
-    }
-}
 
 @media only screen and (max-width: 768px){
   .projects {
@@ -343,15 +296,18 @@ p {
         height: 170px;
     }
 }
+/* #endregion */
 
 
+
+/* ARROW */
+
+/* #region arrow */
 
 .arrow__container .arrows {
-  /**/
   position: absolute;
   top: 80%;
   left: 50%;
-  /**/
   width: 80px;
   height: 80px;
   transform: translate(-50%, -50%);
@@ -398,3 +354,4 @@ p {
     transform: translate(-13.3333333333px, 53.3333333333px) rotate(-45deg);
   }
 }
+/* #endregion */
