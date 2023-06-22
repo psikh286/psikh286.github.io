@@ -4,6 +4,7 @@
 }
 
 
+
 .header__container {
     height: 100vh;
     display: flex;
@@ -16,7 +17,7 @@
 
 
 .header__info {
-    display: flex;
+    /*display: flex;
     justify-content: flex-end;
     -webkit-justify-content: flex-end;
     left: 0;
@@ -29,7 +30,10 @@
     height: 100%;
     padding: 8%;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+    box-sizing: border-box;*/
+    
+    background-color: black;
+    flex: 1;
 }
 .header__info-container {
     display: flex;
@@ -65,28 +69,32 @@
 
 
 .header__doombar {
-    display: flex;
+    /*
     justify-content: center;
     font-family: bitArcade;
     text-shadow: 3px 3px 1px rgba(37,16,10,0.6);;
-    /* position: fixed; */
+    
     bottom: 0;
     left: 0;
-    width: 100%;
+    
     background-color: #000; 
-    z-index: 1;
+    z-index: 1;*/
+    
+    display: flex;
+    width: 100%;
+    height: 30%;
 }
 
 .header__doombar-list {
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    bottom: 0;
+    bottom: 0;   
+    border: 5px solid rgba(182, 180, 180, 0.574);*/
+
+    background-image: url(../../img/protoTexturesPng/Purple/texture_01.png);
+    background-size: 36rem;
     width: 100%;
-    background-image: url(../../img/protoTexturesPng/Purple/texture_10.png);
-    background-size: 8%;
-    /* background-position: top left; */
-    background-repeat: repeat;
-    border: 5px solid rgba(182, 180, 180, 0.574);
+    
 }
 
 .doombar-list-main {
@@ -108,6 +116,7 @@
     color: rgb(182, 180, 180);
 }
 
+/*
 @media only screen and (max-width: 1356px)
 {
     .list-main-num {
@@ -204,4 +213,4 @@
     .header__info-gamedev {
         font-size: 18px;
     }
-}
+}*/
