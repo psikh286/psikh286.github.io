@@ -4,18 +4,11 @@
 }
 
 
-.header {
-    display: block;
-    /* background-color: rgb(133, 140, 118); */
-}
-
 .header__container {
     height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    background-color: #353535;
     background-image: url(../../img/protoTexturesPng/Dark/texture_08.png);
     background-size: 30%;
 }
