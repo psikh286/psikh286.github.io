@@ -115,7 +115,7 @@ p {
     height: 100vh;
     margin: 20px 0;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -124,6 +124,7 @@ p {
     padding: 50px 0;
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    width: 100%;
 }
 
 .project-main-btns_with_info {
