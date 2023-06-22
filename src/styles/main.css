@@ -328,6 +328,11 @@ p {
 
 /* #region arrow */
 
+.arrow__container {
+    display: flex;
+    cursor: pointer;
+}
+
 .arrow__container .arrows {
   position: absolute;
   top: 80%;

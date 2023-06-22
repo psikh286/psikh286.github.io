@@ -1,7 +1,7 @@
 import ProjectCard from "../components/project/ProjectCard.js";
 import { projects } from "../helpers/projectList";
 
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Element } from 'react-scroll'
 
 
 import '../styles/main.css'
@@ -15,8 +15,9 @@ const Projects = () => {
                     {projects.map((project, index) => {
                         return (
                             <ProjectCard
-                                img={project.cover}
-                                index={index}
+                                title = {project.title}
+                                img = {project.cover}
+                                index = {index}
                             />
                         )
                     })}

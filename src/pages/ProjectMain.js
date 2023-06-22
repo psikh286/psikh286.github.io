@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import { projects } from "../helpers/projectList";
 
+import { scroller, Element } from 'react-scroll';
 
 
 import gitIcon from '../img/github.svg'
@@ -17,15 +18,24 @@ const ProjectMain = () => {
         window.scrollTo(0, 0);
     }, []);
     
-    
+
+  const handleScrollToBlock = (text) => {
+    scroller.scrollTo(text, {
+      duration: 600, // Длительность анимации в миллисекундах
+      smooth: 'easeInOutQuart', // Тип анимации
+    })
+  }
+
     return ( 
         <div className="container">
             <div className="container-img">
                 <img src={project.mainImg} className="title-img-main" alt="dsa"></img>
-                <div className="arrow__container"><div className="arrows"></div></div>
+                <div className="arrow__container" onClick={() => handleScrollToBlock('container_project')}>
+                    <div className="arrows"></div>
+                </div>
             </div>
 
-            <div className="container_project">
+            <Element className="container_project">
                 <div className="project-main">
                     <div className="project-main-details">
                         <ul className="main-info-list">
@@ -75,7 +85,7 @@ const ProjectMain = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Element>
         </div>
     );
 }
