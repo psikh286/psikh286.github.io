@@ -14,8 +14,8 @@ import slimyImage1 from '../img/slimy/Slimy_1.png'
 
 import eotwCover from '../img/eotw/EOTW_cover.png'
 import eotwMainImage from '../img/eotw/EOTW_main.png'
-import eotwImage0 from '../img/eotw/EOTW_cover.png'
-import eotwImage1 from '../img/eotw/EOTW_cover.png'
+import eotwImage0 from '../img/eotw/EOTW_1.png'
+import eotwImage1 from '../img/eotw/EOTW_2.png'
 
 import partyChaosCover from '../img/partyChaos/PartyChaos_cover.png'
 import partyChaosMainImage from '../img/partyChaos/PartyChaos_0.png'
@@ -56,16 +56,14 @@ const projects = [
         ],
         
         //TEXT
-        "info" : "At first, it was a student project, but then it immediately became the main one. Local multiplayer party game with the support of 2-8 people and a bunch of fun minigames. It was made in 2 weeks! I would love to answer your questions! However, I don’t want to share the code source.\n",
-        "problems" : "1. Since it is a “Pass the Controller” game, without a clever way to shuffle players, pairs of players will be the same all the time.\n" + "\n" + "2. Minigames order decided by pure random might lead to unfair outcomes while keeping order the same is repetitive. (old version of the game)\n" +
-            "\n" +
-            "3. Create a procedurally generated Hub where players can pick the next game and make everything appealing.\n",
-        "solutions" : "aboba"
+        "info" : 'Local multiplayer party game with the support of 2-8 people and a bunch of fun minigames. It is a “Pass the Controller” type game. <br/><br/> <i> I would love to answer your questions! However, I don’t want to share the code source.</i>',
+        "problems" : '<ol><li>Players\' orders might feel repetitive over time.</li><li>Minigames order decided by pure random might lead to unfair outcomes while keeping order the same is repetitive. (old version of the game)</li><li>Create a procedurally generated Hub where players can pick the next game and make everything appealing.</li></ol>',
+        "solutions" : '<ol><li>I implemented a shuffle to ensure that each person plays against every other person before reshuffling. And players can’t play 2 games in a row (except if it’s 1 player team).</li><li> We divided our games on the “type” of skills(fast/luck/skill-based) and the emotions that they invoke. After we created templates of which type of games should be played next. And I made a system that uses those templates to pick random but suitable games. (old version of the game)</li><li>I recreated mini versions(previews) of each minigame in the Hub, where players can test it and vote if they like it. After a minigame is played, the preview turns gray until all minigames are played. And to make everything a bit cooler, added Lego building stile animations for previews and a bunch of physics objects to mess around with.</li></ol>',
     },
     {
         //ON MAIN PAGE
         "title" : "End Of The World",
-        "coverInfo" : "Aboba?",
+        "coverInfo" : 'How I made a game in <b>7h 53m</b>',
         "cover" : eotwCover,
 
         //DETAILS
@@ -88,9 +86,9 @@ const projects = [
         ],
 
         //TEXT
-        "info" : "aboba",
-        "problems" : "aboba",
-        "solutions" : "aboba"
+        "info" : "This student project was done overnight! Spot planets of allies and enemies, make quick decisions and don’t forget small details.",
+        "problems" : "Lack of time but the desire to make something fun!",
+        "solutions" : 'I used <a href="https://deep-fold.itch.io/pixel-planet-generator" target="_blank" rel="noreferrer">Planet</a> and <a href="https://deep-fold.itch.io/space-background-generator" target="_blank" rel="noreferrer">Space Background</a> generators and added a bit of random to it (rotation direction and speed). Build a simple Dialog and NPC system, and everything comes together.'
     },
     {
         //ON MAIN PAGE
@@ -118,7 +116,7 @@ const projects = [
         ],
 
         //TEXT
-        "info" : "aboba",
+        "info" : "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadjasjfdsjhfjdsabfdsabfhsdabhfjasdjhbjhbhjsdasjdfndshfhshadhfhasdjsfjdsajnfdsanjfnjdsanfjdsfjndsjanfsadnfndsajnfsajn",
         "problems" : "aboba",
         "solutions" : "aboba"
     },

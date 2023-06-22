@@ -30,15 +30,14 @@ const ProjectMain = () => {
                     <div className="project-main-details">
                         <ul className="main-info-list">
                                 <h2>Project Details</h2>
-                                <li><bbc>Roles</bbc>: {project.roles}</li>
-                                <li>Semester: {project.semester}</li>
-                                <li>Team Size: {project.teamSize}</li>
-                                <li>Time Spent: {project.time}</li>
-                                <li>Date: {project.date}</li>
-                                <li>Engine: {project.engine}</li>
+                                <li dangerouslySetInnerHTML={{__html: '<b>Roles: </b>' + project.roles}}></li>
+                                <li dangerouslySetInnerHTML={{__html: '<b>Semester: </b>' + project.semester}}></li>
+                                <li dangerouslySetInnerHTML={{__html: '<b>Team Size: </b>' + project.teamSize}}></li>
+                                <li dangerouslySetInnerHTML={{__html: '<b>Time Spent: </b>' + project.time}}></li>
+                                <li dangerouslySetInnerHTML={{__html: '<b>Date: </b>' + project.date}}></li>
+                                <li dangerouslySetInnerHTML={{__html: '<b>Engine: </b>' + project.engine}}></li>
                         </ul>
-    
-    
+                        
                         <div className="project-main-buttons">
                             {project.itch && (
                                 <a href={project.itch} target="_blank" rel="noreferrer" className="project-main-btn">
@@ -59,35 +58,20 @@ const ProjectMain = () => {
                             </div>                       
                         </div>
                     </div>
-    
-                    <div className="project-main-text">
-                        <div className="project-main-descriptions">
-                                <h2 className="title">Game Description</h2>
-    
-                                <div className="project-main-descr-card">
-                                   
-                                    <div className="descr-text">
-                                        <p className="descr-text-main" dangerouslySetInnerHTML={{__html: project.info}}></p>
-                                    </div>
-                                </div>
-    
-                                <h2 className="title">Problems</h2>
-    
-                                <div className="project-main-descr-card">
-    
-                                    <div className="descr-text">
-                                        <p className="descr-text-main" dangerouslySetInnerHTML={{__html: project.problems}}></p>
-                                    </div>
-                                </div>
-    
-                                <h2 className="title">My Solutions</h2>
-    
-                                <div className="project-main-descr-card">
-    
-                                    <div className="descr-text">
-                                        <p className="descr-text-main" dangerouslySetInnerHTML={{__html: project.solutions}}></p>
-                                    </div>
-                                </div>
+                    <div className="project-main-descriptions">
+                        <div className="project-main-descr-card">
+                            <h2 className="title">Game Description</h2>
+                            <div className="descr-text" dangerouslySetInnerHTML={{__html: project.info}}></div>
+                        </div>
+                        
+                        <div className="project-main-descr-card">
+                            <h2 className="title">Problems</h2>
+                            <div className="descr-text" dangerouslySetInnerHTML={{__html: project.problems}}></div>
+                        </div>
+                        
+                        <div className="project-main-descr-card">
+                            <h2 className="title">Solutions</h2>
+                            <div className="descr-text" dangerouslySetInnerHTML={{__html: project.solutions}}></div>
                         </div>
                     </div>
                 </div>
