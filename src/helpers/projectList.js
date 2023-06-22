@@ -116,14 +116,14 @@ const projects = [
         ],
 
         //TEXT
-        "info" : "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadjasjfdsjhfjdsabfdsabfhsdabhfjasdjhbjhbhjsdasjdfndshfhshadhfhasdjsfjdsajnfdsanjfnjdsanfjdsfjndsjanfsadnfndsajnfsajn",
+        "info" : "",
         "problems" : "aboba",
         "solutions" : "aboba"
     },
     {
         //ON MAIN PAGE
         "title" : "Sound Of the Road",
-        "coverInfo" : "Desiner-friendly systems for huge team",
+        "coverInfo" : 'How I made a casual goofy <b>car controller</b>',
         "cover" : soundOfTheRoadCover,
 
         //DETAILS
@@ -146,9 +146,9 @@ const projects = [
         ],
 
         //TEXT
-        "info" : "aboba",
-        "problems" : "aboba",
-        "solutions" : "aboba"
+        "info" : "Casual car controls, a radio, and a low-poly, colorful, and post-apocalyptic world. YES! This game still doesn’t have a clear gameplay goal, but the experience is already there. My last student project(so far) is with an incredible team of 9, but actually 7 people.",
+        "problems" : '<ol><li>I had to make a casual fun car controller, but I didn’t have experience in car games.</li><li>We needed a radio (zone-specific) and CD record-player system.</li></ol>',
+        "solutions" : '<ol><li>I played some and created a custom physics car controller by applying different forces at 4 points without simulating actual wheels. Also made an option to switch and create custom car settings runtime.</li><li>I merged them, made an opportunity to create/switch discs with songs runtime, and made radio as an actual disc that changes based on position in the world.</li></ol>'
     },
     {
         //ON MAIN PAGE
