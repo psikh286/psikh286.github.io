@@ -1,7 +1,9 @@
 
 .project__card {
     height: auto;
-    background-color: #FFFFFF;
+    background-image: url(../../img/protoTexturesPng/Orange/texture_07.png);
+    background-size: 40%;
+        
     box-shadow: rgb(167, 75, 75);
     border-radius: 10px;
     margin: 10px;
@@ -14,13 +16,23 @@
     align-items: center;
     max-width: 800px;
     padding: 5px;
+    position: relative;
 }
 
 .project__title {
     position: absolute;
     opacity: 1;
-    transition: opacity 1s ease;
+    transition: all 1s ease;
+    
+    padding: 4rem;
+    
+    
+    word-break: break-word;
+    font-family: Arial;
+    font-size: 2rem;
+    color: black;
 }
+
 
 .project__card-img {
     width: 100%;
@@ -30,7 +42,7 @@
     border-radius: 10px;
     box-shadow: 18px 18px 26px 6px rgba(34, 60, 80, 0.2);
     opacity: 0;
-    transition: opacity 1s ease;
+    transition: all 1s ease;
 }
 
 .project__card-title {
@@ -41,11 +53,9 @@
 .project__card-item:hover .project__card-img {
     opacity: 1;
 }
-
 .project__card-item:hover .project__title {
     opacity: 0;
 }
-
 
 
 @media only screen and (min-width: 1797px){

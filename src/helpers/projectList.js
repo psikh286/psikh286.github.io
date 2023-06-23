@@ -33,7 +33,8 @@ const projects = [
     {
         //ON MAIN PAGE
         "title" : "Party Chaos",
-        "coverInfo" : 'How I made my' + '<b>BEST</b>' + 'game',
+        //"coverInfo" : 'How I made my ' + '<i>BEST</i>' + ' game',
+        "coverInfo" : 'My ' + '<b>BEST</b>' + ' game',
         "cover" : partyChaosCover,
 
         //DETAILS
@@ -63,7 +64,7 @@ const projects = [
     {
         //ON MAIN PAGE
         "title" : "End Of The World",
-        "coverInfo" : 'How I made a game in <b>7h 53m</b>',
+        "coverInfo" : 'How I made a game in ' + '<b>7h 53m</b>',
         "cover" : eotwCover,
 
         //DETAILS

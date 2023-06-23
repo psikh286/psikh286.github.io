@@ -50,20 +50,12 @@ const Navbar = () => {
   
   
 
-  // scroller.scrollTo('sectionScroll', {
-  //   duration: 1500,
-  //   delay: 0,
-  //   smooth: true,
-  //   offset: 50,
-  // })
-  
-  
-
   
   const handleScrollToBlock = (text) => {
     scroller.scrollTo(text, {
       duration: 600, // Длительность анимации в миллисекундах
       smooth: 'easeInOutQuart', // Тип анимации
+      offset: -120
     })
   }
   
