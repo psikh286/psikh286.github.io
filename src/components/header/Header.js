@@ -7,10 +7,11 @@ const Header = () => {
             <div className="header__container">
                 <div className="header__info">
                     <div className="header__info-container">
-                        <p className="header__info-main">Alan<br/>Berberov</p>
-                        <p className="header__info-gamedev">Game Developer & technical designer</p>
+                        <p className="header__info-name">Alan<br/>Berberov</p>
+                        <p className="header__info-role">Game Developer & technical designer</p>
                     </div>
                 </div>
+                
                 <div className="header__doombar">
                     <div className="header__doombar-list">
                         {/*<div className="doombar-list-main"> <p className="list-main-num">84%</p> <p className="list-main-text">C#</p></div>

@@ -17,7 +17,7 @@
 
 
 .header__info {
-    /*display: flex;
+    /*
     justify-content: flex-end;
     -webkit-justify-content: flex-end;
     left: 0;
@@ -31,12 +31,17 @@
     padding: 8%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;*/
-    
-    background-color: black;
-    flex: 1;
+
+    display: flex;
+    flex: 1 1;
+    justify-content: left;
+    align-content: end;
+    flex-wrap: wrap;
+    margin-left: 16%;
+    margin-bottom: 2%;
 }
 .header__info-container {
-    display: flex;
+    /*display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
@@ -46,55 +51,38 @@
     margin-right: auto;
     margin-bottom: 10%;
     left: 0;
-    right: 0;
+    right: 0;*/
+    
+    height: fit-content;
 }
-.header__info-main {
-    font-size: 72px;
-    line-height: 72px;
+.header__info-name {
+    font-size: clamp(4rem, 0.4rem + 5.1372vw, 15rem);    
+    line-height: 100%;
     color: #FFFCF2;
     text-shadow: 7px 1px 9px rgba(40,17,11,0.68);
 }
-.header__info-gamedev{
+.header__info-role{
     color: rgb(166, 168, 170);
-    font-size: 28px;
+    font-size: clamp(1rem, 0.8187rem + 0.7005vw, 2.5rem);
     text-shadow: 7px 1px 9px rgba(40,17,11,0.68);
 }
 
-.header__gamedev {
-    font-size: 32px;
-}
 
 
 /* DOOMBAR */
 
 
-.header__doombar {
-    /*
-    justify-content: center;
-    font-family: bitArcade;
-    text-shadow: 3px 3px 1px rgba(37,16,10,0.6);;
-    
-    bottom: 0;
-    left: 0;
-    
-    background-color: #000; 
-    z-index: 1;*/
-    
+.header__doombar {      
     display: flex;
     width: 100%;
     height: 30%;
 }
-
 .header__doombar-list {
-    /*display: flex;
-    justify-content: center;
-    bottom: 0;   
-    border: 5px solid rgba(182, 180, 180, 0.574);*/
-
-    background-image: url(../../img/protoTexturesPng/Purple/texture_01.png);
-    background-size: 36rem;
+    background-image: url(../../img/protoTexturesPng/Purple/texture_02.png);
+    background-size: 30%;
     width: 100%;
-    
+    border-top: 0.2rem solid white;
+    border-bottom: 0.2rem solid white;
 }
 
 .doombar-list-main {
