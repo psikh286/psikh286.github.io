@@ -1,8 +1,8 @@
 
 .project__card {
     height: auto;
-    background-image: url(../../img/protoTexturesPng/Orange/texture_07.png);
-    background-size: 40%;
+    background-image: url(../../img/protoTexturesPng/Orange/texture_03.png);
+    background-size: 50%;
         
     box-shadow: rgb(167, 75, 75);
     border-radius: 10px;
@@ -17,6 +17,7 @@
     max-width: 800px;
     padding: 5px;
     position: relative;
+    user-select: none;
 }
 
 .project__title {
@@ -24,12 +25,13 @@
     opacity: 1;
     transition: all 1s ease;
     
-    padding: 4rem;
+    padding: 2rem;
+    text-align: center;
     
     
     word-break: break-word;
     font-family: Arial;
-    font-size: 2rem;
+    font-size: clamp(1rem, 0.8187rem + 0.7005vw, 2.5rem);
     color: black;
 }
 
