@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.395811aa.css",
-    "main.js": "/static/js/main.34f94549.js",
+    "main.css": "/static/css/main.1695ba06.css",
+    "main.js": "/static/js/main.37f06662.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/PartyChaos_1.png": "/static/media/PartyChaos_1.0c50befea87f15bf032f.png",
+    "static/media/PartyChaos_5.png": "/static/media/PartyChaos_5.b8f0b321e85bef04de3b.png",
+    "static/media/PartyChaos_0.png": "/static/media/PartyChaos_0.e377731d915cc2ec079d.png",
     "static/media/PartyChaos_cover.png": "/static/media/PartyChaos_cover.f7c63f971e81f029f5c7.png",
     "static/media/Craft_1.png": "/static/media/Craft_1.5a04532bad97da6d45de.png",
     "static/media/SoundOfTheRoad_cover.png": "/static/media/SoundOfTheRoad_cover.329799939144f8c2f6f1.png",
     "static/media/Slimy_cover.png": "/static/media/Slimy_cover.007880af65e4ed93e917.png",
-    "static/media/pixil-frame-2.png": "/static/media/pixil-frame-2.6853f1bb71d59b7ea6ad.png",
+    "static/media/Slimy_main.png": "/static/media/Slimy_main.eb31c4dce458153b555b.png",
+    "static/media/EOTW_main.png": "/static/media/EOTW_main.72246d05e6de2c6185f3.png",
+    "static/media/Slimy_0.png": "/static/media/Slimy_0.798b987b8aff04d4f732.png",
     "static/media/EOTW_cover.png": "/static/media/EOTW_cover.82bd1813361b3f50676d.png",
     "static/media/10Seconds_1.png": "/static/media/10Seconds_1.52fb788ac04cd32fa238.png",
+    "static/media/EOTW_2.png": "/static/media/EOTW_2.e76f86f180e768822f3b.png",
+    "static/media/EOTW_1.png": "/static/media/EOTW_1.3725eb93bbe2a5cd23e4.png",
     "static/media/VCR_OSD_MONO_1.001.ttf": "/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
+    "static/media/Slimy_1.png": "/static/media/Slimy_1.703bd52aa7f005d90657.png",
     "static/media/10Sec_cover.png": "/static/media/10Sec_cover.607e90ed41905b3bbae4.png",
     "static/media/Genetics_cover.png": "/static/media/Genetics_cover.29341c4877b517d689fd.png",
     "static/media/Craft_cover.png": "/static/media/Craft_cover.3d88e79abbdb59c7d064.png",
     "static/media/OstrichSans-Heavy.otf": "/static/media/OstrichSans-Heavy.3a837cdeafd6547e8439.otf",
+    "static/media/texture_06.png": "/static/media/texture_06.8d95d6a2c3b1cfd1deb1.png",
     "static/media/Gravity_cover.png": "/static/media/Gravity_cover.2f6207bc753ee806975e.png",
     "static/media/itch-io.svg": "/static/media/itch-io.40fe855d8407f3c565a0e64ee32b50a0.svg",
     "static/media/c-sharp-logo.svg": "/static/media/c-sharp-logo.da61d4ef0dbbfd63b22fd99950989aaf.svg",
@@ -25,12 +34,12 @@
     "static/media/github.svg": "/static/media/github.c929f7644bec7dbde50e11573e1e4ab9.svg",
     "static/media/unreal-engine.svg": "/static/media/unreal-engine.8e6144568162e7da697eb3323278a2db.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
-    "main.395811aa.css.map": "/static/css/main.395811aa.css.map",
-    "main.34f94549.js.map": "/static/js/main.34f94549.js.map",
+    "main.1695ba06.css.map": "/static/css/main.1695ba06.css.map",
+    "main.37f06662.js.map": "/static/js/main.37f06662.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.395811aa.css",
-    "static/js/main.34f94549.js"
+    "static/css/main.1695ba06.css",
+    "static/js/main.37f06662.js"
   ]
 }
