@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1695ba06.css",
+    "main.css": "/static/css/main.d2a859f2.css",
     "main.js": "/static/js/main.37f06662.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/PartyChaos_1.png": "/static/media/PartyChaos_1.0c50befea87f15bf032f.png",
@@ -23,7 +23,6 @@
     "static/media/Genetics_cover.png": "/static/media/Genetics_cover.29341c4877b517d689fd.png",
     "static/media/Craft_cover.png": "/static/media/Craft_cover.3d88e79abbdb59c7d064.png",
     "static/media/OstrichSans-Heavy.otf": "/static/media/OstrichSans-Heavy.3a837cdeafd6547e8439.otf",
-    "static/media/texture_06.png": "/static/media/texture_06.8d95d6a2c3b1cfd1deb1.png",
     "static/media/Gravity_cover.png": "/static/media/Gravity_cover.2f6207bc753ee806975e.png",
     "static/media/itch-io.svg": "/static/media/itch-io.40fe855d8407f3c565a0e64ee32b50a0.svg",
     "static/media/c-sharp-logo.svg": "/static/media/c-sharp-logo.da61d4ef0dbbfd63b22fd99950989aaf.svg",
@@ -34,12 +33,12 @@
     "static/media/github.svg": "/static/media/github.c929f7644bec7dbde50e11573e1e4ab9.svg",
     "static/media/unreal-engine.svg": "/static/media/unreal-engine.8e6144568162e7da697eb3323278a2db.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
-    "main.1695ba06.css.map": "/static/css/main.1695ba06.css.map",
+    "main.d2a859f2.css.map": "/static/css/main.d2a859f2.css.map",
     "main.37f06662.js.map": "/static/js/main.37f06662.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1695ba06.css",
+    "static/css/main.d2a859f2.css",
     "static/js/main.37f06662.js"
   ]
 }
