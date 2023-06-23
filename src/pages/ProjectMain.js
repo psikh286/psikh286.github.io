@@ -11,9 +11,7 @@ import itchIcon from '../img/itch-io.svg'
 const ProjectMain = () => {
     const {id} = useParams();
     const project = projects[id];
-    
-    console.log(useParams());
-    
+        
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

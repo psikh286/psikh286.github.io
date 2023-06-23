@@ -65,19 +65,21 @@ p {
 .projects__title {
     font-size: 60px;
     color: #FFFCF2;
+    padding-bottom: 2rem;
 }
 
 .projects__container {
-    display: flex;
-    justify-content: center;
+    
 }
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    row-gap: 10px;
-    column-gap: 10px;
+    gap: 10px;
+
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    padding: 0 100px;
+    width: 100%;
 }
 
 

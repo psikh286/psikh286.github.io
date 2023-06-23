@@ -34,8 +34,8 @@ const projects = [
         //ON MAIN PAGE
         "title" : "Party Chaos",
         //"coverInfo" : 'How I made my ' + '<i>BEST</i>' + ' game',
-        "coverInfo" : 'My ' + '<b>BEST</b>' + ' game',
-        "cover" : partyChaosCover,
+        "coverInfo" : 'My ' + '<b>BEST</b>' + ' Game',
+        "cover" : partyChaosImage0,
 
         //DETAILS
         "roles" : "Programmer, Game Designer",
