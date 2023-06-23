@@ -55,7 +55,7 @@ const Navbar = () => {
     scroller.scrollTo(text, {
       duration: 600, // Длительность анимации в миллисекундах
       smooth: 'easeInOutQuart', // Тип анимации
-      offset: -120
+      offset: -150
     })
   }
   
