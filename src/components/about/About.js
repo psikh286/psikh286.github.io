@@ -1,19 +1,22 @@
-import unity from '../../img/unity.svg'
-import csharp from '../../img/c-sharp-logo.svg'
-import blender from '../../img/blender-3d.svg'
-import unreal4 from '../../img/unreal-engine.svg'
+import resume from '../../img/Resume.pdf'
 
 import './about.css'
 
 const About = () => {
     return ( 
         <div className="about" id='about'>
-            <p className="about__header-title">About</p>
+            <p className="section__header">About</p>
             <div className="about__container">
                 <div className="about__info">
-                    <p className="about__title">Hi, i'm <br/>Alan berberov</p>
-                    <p className="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus tristique metus, id sagittis ex tincidunt at.Aliquam erat volutpat. Sed interdum nulla vitae metus vulputate, id gravida enim rutrum finibus tristique metus, id sagittis ex tincidunt at.Aliquam erat volutpat. Sed interdum nulla vitae metus vulputate, id gravida enim rutrumfinibus tristique metus, id sagittis ex tincidunt at.Aliquam erat volutpat. Sed interdum nulla vitae metus vulputate, id gravida enim rutrum</p>
+                    <p className="about__title">Hello there!</p>
+                    <p className="about__text">
+                        My name is <b className="highlighted">Alan</b>.<br/> I'm a <b className="highlighted">Game Developer</b>  specializing in <b className="highlighted">Unity Engine</b> and <b className="highlighted">C#</b>, making exciting game mechanics, expandable systems, and designer-friendly tools.
+                        I'm studying Game Design at the University of Applied Science.
+                    </p>
                 </div>
+                <a href={resume} className="about__download" target="_blank" rel="noreferrer">Download cv</a>
+                
+                {/*
                 <div className="about__skills">
                     <h3>Skills:</h3>
                     <div className="about__skills-list">
@@ -36,7 +39,7 @@ const About = () => {
                             
                         </div>
                     </div>
-                </div>
+                </div>*/}
             </div>
         </div>
      );
