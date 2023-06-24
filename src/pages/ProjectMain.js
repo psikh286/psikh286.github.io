@@ -39,7 +39,8 @@ const ProjectMain = () => {
                         <ul className="main-info-list">
                                 <h2>Project Details</h2>
                                 <li dangerouslySetInnerHTML={{__html: '<b>Roles: </b>' + project.roles}}></li>
-                                <li dangerouslySetInnerHTML={{__html: '<b>Semester: </b>' + project.semester}}></li>
+                                {project.semester &&
+                                <li dangerouslySetInnerHTML={{__html: '<b>Semester: </b>' + project.semester}}></li>}                                                              
                                 <li dangerouslySetInnerHTML={{__html: '<b>Team Size: </b>' + project.teamSize}}></li>
                                 <li dangerouslySetInnerHTML={{__html: '<b>Time Spent: </b>' + project.time}}></li>
                                 <li dangerouslySetInnerHTML={{__html: '<b>Date: </b>' + project.date}}></li>
