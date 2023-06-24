@@ -1,7 +1,7 @@
-
 .project__card {
-    background-image: url(../../img/protoTexturesPng/Orange/texture_03.png);
-    background-size: 50%;
+    background-image: url(../../img/protoTexturesPng/Orange/texture_09.png);
+    background-size: 20%;
+    background-position: -0px -0px;
         
     box-shadow: rgb(167, 75, 75);
     border-radius: 10px;
@@ -9,26 +9,30 @@
     aspect-ratio: 4/3;
     overflow: hidden;
 }
-
 .project__card-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
-    padding: 3px;
+    padding: 5px;
     
     position: relative;
     user-select: none;
     height: 100%;
 }
 
+:root{
+    --project-opacity: 0;
+    --a: 1 - var(--project-opacity);
+}
+
 .project__title {
     position: absolute;
-    opacity: 1;
+    opacity: var(--project-opacity);
     transition: opacity 0.2s ease-in-out;
     
-    padding: 2rem;
+    padding: 3rem;
     text-align: center;
     
     
@@ -37,36 +41,17 @@
     font-size: clamp(1rem, 1rem + 0.7005vw, 2.5rem);
     color: black;
 }
-
-
 .project__card-img {
-    height: 100%;
+    width: 100%;
     
     border-radius: 10px;
-    opacity: 0;
+    opacity: max(var(--a), -1*var(--a));
     transition: opacity 1s ease;
 }
 
-.project__card-title {
-    color: aliceblue;
-    padding-bottom: 10px;
-}
-
 .project__card-item:hover .project__card-img {
-    opacity: 1;
+    opacity: var(--project-opacity);
 }
 .project__card-item:hover .project__title {
-    opacity: 0;
+    opacity: max(var(--a), -1*var(--a));
 }
-
-/*
-@media only screen and (min-width: 1797px){
-    .project__card-item {
-        width: 800px;
-    }
-}
-@media only screen and (min-width: 1440px){
-    .project__card-item {
-        width: 640px;
-    }
-}*/
