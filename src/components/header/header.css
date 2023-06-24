@@ -22,8 +22,8 @@
     flex-wrap: wrap;
 
     background-color: #252525;
-    /*background-image: url(../../img/protoTexturesPng/Dark/texture_08.png);
-    background-size: 30%;*/
+    background-image: url(../../img/protoTexturesPng/Dark/texture_08.png);
+    background-size: 30%;
 }
 .header__info-container {
     height: fit-content;
