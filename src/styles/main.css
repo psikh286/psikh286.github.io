@@ -62,26 +62,29 @@ p {
     margin-top: 10rem;
 }
 
-.projects__title {
-    font-size: 60px;
+
+.section__header{
+    font-size: clamp(3rem, 1rem + 3.6941vw, 11rem);
     color: #FFFCF2;
     padding-bottom: 2rem;
 }
 
-.projects__container {
-    
-}
+
 
 .projects {
     display: grid;
     justify-content: center;
     gap: 20px;
 
-    grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
+    grid-template-columns: repeat(auto-fit, clamp(300px, 25vw, 1000px));
     padding: 0 40px;
     width: 100%;
     
     
+}
+
+.highlighted{
+    color: blue;
 }
 
 

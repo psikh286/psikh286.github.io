@@ -210,7 +210,7 @@ const projects = [
     {
         //ON MAIN PAGE
         "title" : "Mendelian Genetics",
-        "coverInfo" : 'My <h2>EXPERIMENT</h2> with <h2>Scriptable Objects</h2>',
+        "coverInfo" : 'My experiment with <h2>SCRIPTABLE OBJECTS</h2>',
         "cover" : geneticsCover,
 
         //DETAILS
@@ -270,7 +270,7 @@ const projects = [
     {
         //ON MAIN PAGE
         "title" : "Parkour Demo",
-        "coverInfo" : 'My <h2>FIRST</h2> experience in <h2>Unreal Engine</h2>',
+        "coverInfo" : 'My <h2>FIRST</h2> experience in <h2>UNREAL ENGINE</h2>',
         "cover" : parkourCover,
 
         //DETAILS
