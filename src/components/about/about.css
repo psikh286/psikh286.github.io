@@ -48,4 +48,13 @@
     margin-top: 1rem;
     padding: 10px;
     font-size: 2rem;
+    
+    transition: all 0.4s ease-in-out;
+        
+    transform:  translateZ(0);
+    backface-visibility: hidden;    
+}
+
+.about__download:hover{
+    transform: scale(1.1);
 }
