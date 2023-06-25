@@ -18,7 +18,6 @@ function App() {
     <div className="App">
       <Router>
         <ScrollToTop />
-        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project/:id" element={<ProjectMain />} />

@@ -88,6 +88,10 @@ p {
     font-weight: bold;
 }
 
+.highlighted::selection{
+    color: yellow;
+}
+
 ::selection {
     color: darkviolet;
     background: black;
