@@ -1,11 +1,10 @@
-
 .footer {
 	margin-top: auto;
 	padding: 15px 0 15px;
-	background-color: rgb(73, 62, 53);
+	background-image: url("../../img/protoTexturesPng/Dark/texture_08.png");
+	background-size: 5%;
     color: aliceblue;
 }
-
 .footer__wrapper {
 	display: flex;
 	flex-direction: column;
@@ -17,16 +16,22 @@
 	column-gap: 30px;
 	align-items: center;
 }
+.footer__icon{
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(61deg) brightness(103%) contrast(101%);
+}
+.footer__icon:hover{	
+	filter: invert(48%) sepia(88%) saturate(1018%) hue-rotate(1deg) brightness(105%) contrast(103%);
+}
 
 .copyright {
-	font-size: 16px;
-	font-family: "Space grotesk";
+	font-size: 1rem;
+	margin: 0.5rem;
+	font-family: "Space grotesk", sans-serif;
 }
 .copyright a {
-	text-decoration: none;
 	color: #FFFCF2;
 }
 
-.copyright a + a {
-	margin-top: 0.5em;
+.copyright:hover{
+	filter: invert(48%) sepia(88%) saturate(1018%) hue-rotate(1deg) brightness(105%) contrast(103%);
 }
