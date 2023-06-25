@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.91e336c9.css",
-    "main.js": "/static/js/main.286d0380.js",
+    "main.css": "/static/css/main.f3db799f.css",
+    "main.js": "/static/js/main.2ec10d57.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/PartyChaos_1.png": "/static/media/PartyChaos_1.0c50befea87f15bf032f.png",
     "static/media/PartyChaos_5.png": "/static/media/PartyChaos_5.b8f0b321e85bef04de3b.png",
@@ -30,13 +30,14 @@
     "static/media/twitter.svg": "/static/media/twitter.c759977ca496dcf52ec2c8797a411d1a.svg",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.c929f7644bec7dbde50e11573e1e4ab9.svg",
+    "static/media/upButton.svg": "/static/media/upButton.47d91978023cf04c3da65d3815b286e8.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
-    "main.91e336c9.css.map": "/static/css/main.91e336c9.css.map",
-    "main.286d0380.js.map": "/static/js/main.286d0380.js.map",
+    "main.f3db799f.css.map": "/static/css/main.f3db799f.css.map",
+    "main.2ec10d57.js.map": "/static/js/main.2ec10d57.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91e336c9.css",
-    "static/js/main.286d0380.js"
+    "static/css/main.f3db799f.css",
+    "static/js/main.2ec10d57.js"
   ]
 }
