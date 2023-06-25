@@ -84,7 +84,13 @@ p {
 }
 
 .highlighted{
-    color: blue;
+    color: #0073FF;
+    font-weight: bold;
+}
+
+::selection {
+    color: darkviolet;
+    background: black;
 }
 
 
