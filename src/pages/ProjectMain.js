@@ -5,6 +5,10 @@ import { projects } from "../helpers/projectList";
 import { scroller, Element } from 'react-scroll';
 
 
+import '../styles/projectPage.css'
+import '../styles/downScrollButton.css'
+
+import arrowIcon from '../img/upButton.svg'
 import gitIcon from '../img/github.svg'
 import itchIcon from '../img/itch-io.svg'
     
@@ -15,21 +19,22 @@ const ProjectMain = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-    
-
-  const handleScrollToBlock = (text) => {
-    scroller.scrollTo(text, {
-      duration: 600, // Длительность анимации в миллисекундах
-      smooth: 'easeInOutQuart', // Тип анимации
-    })
-  }
+    function handleScrollToBlock(){
+        scroller.scrollTo('container_project', {
+          duration: 600, // Длительность анимации в миллисекундах
+          smooth: 'easeInOutQuart', // Тип анимации
+        })
+    }
 
     return ( 
         <div className="container">
             <div className="container-img">
-                <img src={project.mainImg} className="title-img-main" alt="dsa"></img>
-                <div className="arrow__container" onClick={() => handleScrollToBlock('container_project')}>
-                    <div className="arrows"></div>
+                <img src={project.mainImg} className="title-img-main"  alt="scroll down"></img>
+                <div className="arrow-container" onClick={handleScrollToBlock}>
+                    <div className="down-button__body">
+                        <img src={arrowIcon} alt="scrollDown"/>
+                    </div>
+                    <div className="down-button__effect"></div>
                 </div>
             </div>
 

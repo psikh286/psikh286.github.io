@@ -1,0 +1,87 @@
+﻿:root{
+    --down-button__color: #FF8C00;
+}
+
+.arrow-container{
+    aspect-ratio: 1;
+    height: 10%;
+    
+    
+    margin: 0 auto;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down-button__body{
+    aspect-ratio: 1;
+    height: 50%; 
+    
+    background: var(--down-button__color);
+    z-index: 1;   
+}
+
+
+/* Custom Animate.css */
+
+.down-button__body img{
+    place-self: center;
+    aspect-ratio: 1;
+    height: 50%;
+    scale: 1 -1 1;
+    margin: 25%;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: upDown;
+    animation-timing-function: ease-in-out;
+}
+@keyframes upDown {
+    0% {
+        translate: 0 -40%;
+    }
+
+    55% {
+
+        translate: 0 40%;
+        
+    }
+
+    100% {
+        translate: 0 -40%;
+    }
+}
+
+.down-button__effect{
+    width: 80%;
+    aspect-ratio: 1;    
+    
+    background: var(--down-button__color);
+    opacity: 0.5;
+    position: absolute;
+
+    user-select: none;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: zoomIn;
+    animation-timing-function: ease-in-out;    
+}
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale3d(.4, .4, .4);
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
