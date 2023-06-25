@@ -14,32 +14,7 @@ const About = () => {
                         I'm studying Game Design at the University of Applied Science.
                     </p>
                 </div>
-                <a href={resume} className="about__download" target="_blank" rel="noreferrer">Download cv</a>
-                
-                {/*
-                <div className="about__skills">
-                    <h3>Skills:</h3>
-                    <div className="about__skills-list">
-                        <div className="about__skils-item">
-                            <div className="about__skils-item-img">
-                                <img src={unity} alt="" />
-                            </div>
-                            <div className="about__skils-item-img">
-                                <img src={csharp} alt="" />
-                            </div>
-                        </div>
-                        <div className="about__skils-item">
-                            <div className="about__skils-item-img">
-                                <img src={blender} alt="" />
-                            </div>
-
-                            <div className="about__skils-item-img">
-                                <img src={unreal4} alt="" />
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>*/}
+                <a href={resume} className="about__download" target="_blank" rel="noreferrer">RESUME/CV</a>
             </div>
         </div>
      );
