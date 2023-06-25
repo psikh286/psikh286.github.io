@@ -36,7 +36,9 @@
     line-height: 100%;
     color: #FFFCF2;
     text-shadow: 7px 1px 9px rgba(40,17,11,0.68);
+    user-select: none;
 }
+
 .header__info-role{
     color: rgb(166, 168, 170);
     font-size: clamp(1rem, 0.8187rem + 0.7005vw, 2.5rem);
