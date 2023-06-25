@@ -2,19 +2,19 @@ import './header.css'
 import { Element } from 'react-scroll';
 
 let text = [
-    <p style={{display:"inline-block"}} onClick={() => changeColor(0)}>A</p>,
-    <p style={{display:"inline-block"}} onClick={() => changeColor(1)}>L</p>,
-    <p style={{display:"inline-block"}} onClick={() => changeColor(2)}>A</p>,
-    <p style={{display:"inline-block"}} onClick={() => changeColor(3)}>N</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(0)}>A</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(1)}>L</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(2)}>A</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(3)}>N</p>,
     
-    <p style={{display:"inline-block"}} onClick={() => changeColor(4)}>B</p>,
-    <p style={{display:"inline-block"}} onClick={() => changeColor(5)}>E</p>,
-    <p style={{display:"inline-block"}} onClick={() => changeColor(6)}>R</p>,
-    <p style={{display:"inline-block"}} onClick={() => changeColor(7)}>B</p>,
-    <p style={{display:"inline-block"}} onClick={() => changeColor(8)}>E</p>,
-    <p style={{display:"inline-block"}} onClick={() => changeColor(9)}>R</p>,
-    <p style={{display:"inline-block"}} onClick={() => changeColor(10)}>O</p>,
-    <p style={{display:"inline-block"}} onClick={() => changeColor(11)}>V</p>
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(4)}>B</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(5)}>E</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(6)}>R</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(7)}>B</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(8)}>E</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(9)}>R</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(10)}>O</p>,
+    <p style={{display:"inline-block", color:"rgb(255, 252, 242)"}} onClick={() => changeColor(11)}>V</p>
 ];
 
 
