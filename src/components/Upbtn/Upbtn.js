@@ -1,4 +1,4 @@
-import upimg from '../../img/icons8-up-arrow-50.png'
+import upimg from '../../img/upButton.svg'
 import './upbtn.css'
 
 const Upbtn = () => {
@@ -12,10 +12,8 @@ const Upbtn = () => {
     }
     
     return ( 
-        <div className="upbtn">
-            <div className="upbtn__container" onClick={upToTop}>
-                <img className='upbtn__img' src={upimg} alt="upimg" />
-            </div>
+        <div className="upbtn" onClick={upToTop}>
+            <img className='upbtn__img' src={upimg} alt="upimg"/>
         </div>
      );
 }
