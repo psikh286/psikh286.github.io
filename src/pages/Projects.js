@@ -1,20 +1,19 @@
 import ProjectCard from "../components/project/ProjectCard.js";
-import { projects } from "../helpers/projectList";
 
+import { projects } from "../helpers/projectList";
 import { Element } from 'react-scroll'
 
-
-import '../styles/main.css'
+import '../styles/projects.css'
 
 const Projects = () => {
     return ( 
         <Element id="section" name="sectionScroll">
             <p className="section__header">Projects</p>
-            <ul className="projects">
+            <ul className="project-list">
                 {projects.map((project, index) => {
                     return (
                         <ProjectCard
-                            title = {project.coverInfo}
+                            descr = {project.coverInfo}
                             img = {project.cover}
                             index = {index}
                         />
@@ -22,10 +21,6 @@ const Projects = () => {
                 })}
 
             </ul>
-            
-            <div className="projects__container">
-                
-            </div>
         </Element>
      );
 }

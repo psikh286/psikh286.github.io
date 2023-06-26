@@ -2,9 +2,6 @@
     font-family: bitArcade;
     src: url(../../fonts/VCR_OSD_MONO_1.001.ttf);
 }
-
-
-
 .header__container {
     height: 100vh;
     display: flex;
@@ -12,9 +9,8 @@
     flex-direction: column;
 }
 
-
-
-.header__info {
+/* TOP */
+.header__top {
     display: flex;
     flex: 1;
     justify-content: left;
@@ -25,21 +21,20 @@
     background-image: url(../../img/protoTexturesPng/Dark/texture_08.png);
     background-size: 30%;
 }
-.header__info-container {
+.header__info {
     height: fit-content;
     margin-left: 16%;
     margin-bottom: 4%;
     
 }
-.header__info-name {
+.header__name {
     font-size: clamp(4rem, 0.4rem + 5.1372vw, 15rem);    
     line-height: 100%;
     color: #FFFCF2;
     text-shadow: 7px 1px 9px rgba(40,17,11,0.68);
     user-select: none;
 }
-
-.header__info-role{
+.header__role{
     color: rgb(166, 168, 170);
     font-size: clamp(1rem, 0.8187rem + 0.7005vw, 2.5rem);
     text-shadow: 7px 1px 9px rgba(40,17,11,0.68);
@@ -47,15 +42,13 @@
     user-select: none;
 }
 
-/* DOOMBAR */
-
-
+/* DOOM BAR */
 .header__doombar {      
     display: flex;
     width: 100%;
     height: clamp(9.375rem, 2rem + 13.1349vw, 37.5rem);
 }
-.header__doombar-list {
+.header__stats {
     background-image: url(../../img/protoTexturesPng/Orange/texture_01.png);
     background-size: clamp(20rem, 15.1664rem + 18.6807vw, 60rem);
     width: 100%;

@@ -37,15 +37,15 @@ const Header = () => {
     return ( 
         <Element className="header" id='header'>
             <div className="header__container">
-                <div className="header__info">
-                    <div className="header__info-container">
-                        <p className="header__info-name" id="aboba">{text[0]}{text[1]}{text[2]}{text[3]}<br/>{text[4]}{text[5]}{text[6]}{text[7]}{text[8]}{text[9]}{text[10]}{text[11]}</p>
-                        <p className="header__info-role">Game Developer & technical designer</p>
+                <div className="header__top">
+                    <div className="header__info">
+                        <p className="header__name" id="aboba">{text[0]}{text[1]}{text[2]}{text[3]}<br/>{text[4]}{text[5]}{text[6]}{text[7]}{text[8]}{text[9]}{text[10]}{text[11]}</p>
+                        <p className="header__role">Game Developer & technical designer</p>
                     </div>
                 </div>
                 
                 <div className="header__doombar">
-                    <div className="header__doombar-list">
+                    <div className="header__stats">
                         {/*<div className="doombar-list-main"> <p className="list-main-num">84%</p> <p className="list-main-text">C#</p></div>
                         <div className="doombar-list-main"> <p className="list-main-num">67%</p> <p className="list-main-text">Design System</p></div>
                         <div className="doombar-list-main"> <p className="list-main-text">place for photo??</p></div>

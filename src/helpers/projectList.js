@@ -47,10 +47,10 @@ import craftingImage0 from '../img/crafting/Craft_1.png'
 import craftingImage1 from '../img/crafting/Craft_2.png'
 
 /*PARKOUR DEMO*/
-import parkourCover from '../img/blank.png'
-import parkourMainImage from '../img/blank.png'
-import parkourImage0 from '../img/blank.png'
-import parkourImage1 from '../img/blank.png'
+import parkourCover from '../img/parkour/parkour_cover.png'
+import parkourMainImage from '../img/parkour/parkour_main.png'
+import parkourImage0 from '../img/parkour/parkour_1.png'
+import parkourImage1 from '../img/parkour/parkour_0.png'
 
 
 //endregion
@@ -94,7 +94,7 @@ const projects = [
         "cover" : eotwCover,
 
         //DETAILS
-        "roles" : "Programmer, Game Designer",
+        "roles" : 'Programmer, Game Designer',
         "semester": "2nd",
         "teamSize": "1",
         "time": "8 hours",
