@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3db799f.css",
-    "main.js": "/static/js/main.2ec10d57.js",
+    "main.css": "/static/css/main.99fe2f3e.css",
+    "main.js": "/static/js/main.964b53bd.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/PartyChaos_1.png": "/static/media/PartyChaos_1.0c50befea87f15bf032f.png",
     "static/media/PartyChaos_5.png": "/static/media/PartyChaos_5.b8f0b321e85bef04de3b.png",
     "static/media/PartyChaos_0.png": "/static/media/PartyChaos_0.e377731d915cc2ec079d.png",
+    "static/media/parkour_0.png": "/static/media/parkour_0.0f0cfd60ebf017a89ef3.png",
+    "static/media/parkour_main.png": "/static/media/parkour_main.71a3f2cfeb20b57667c6.png",
+    "static/media/parkour_1.png": "/static/media/parkour_1.95d4af83c7f9b79a136d.png",
+    "static/media/parkour_cover.png": "/static/media/parkour_cover.4b59d59cb3dafba9f267.png",
     "static/media/PartyChaos_cover.png": "/static/media/PartyChaos_cover.f7c63f971e81f029f5c7.png",
     "static/media/Craft_2.png": "/static/media/Craft_2.99e8a745284c062582ee.png",
     "static/media/SoundOfTheRoad_cover.png": "/static/media/SoundOfTheRoad_cover.329799939144f8c2f6f1.png",
@@ -24,7 +28,6 @@
     "static/media/Gravity_2.png": "/static/media/Gravity_2.78e1db379bdda92006bc.png",
     "static/media/Gravity_main.png": "/static/media/Gravity_main.37d69a8c5377e36b1109.png",
     "static/media/Craft_cover.png": "/static/media/Craft_cover.3d88e79abbdb59c7d064.png",
-    "static/media/OstrichSans-Heavy.otf": "/static/media/OstrichSans-Heavy.3a837cdeafd6547e8439.otf",
     "static/media/Gravity_cover.png": "/static/media/Gravity_cover.2f6207bc753ee806975e.png",
     "static/media/itch-io.svg": "/static/media/itch-io.40fe855d8407f3c565a0e64ee32b50a0.svg",
     "static/media/twitter.svg": "/static/media/twitter.c759977ca496dcf52ec2c8797a411d1a.svg",
@@ -32,12 +35,12 @@
     "static/media/github.svg": "/static/media/github.c929f7644bec7dbde50e11573e1e4ab9.svg",
     "static/media/upButton.svg": "/static/media/upButton.47d91978023cf04c3da65d3815b286e8.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
-    "main.f3db799f.css.map": "/static/css/main.f3db799f.css.map",
-    "main.2ec10d57.js.map": "/static/js/main.2ec10d57.js.map",
+    "main.99fe2f3e.css.map": "/static/css/main.99fe2f3e.css.map",
+    "main.964b53bd.js.map": "/static/js/main.964b53bd.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3db799f.css",
-    "static/js/main.2ec10d57.js"
+    "static/css/main.99fe2f3e.css",
+    "static/js/main.964b53bd.js"
   ]
 }
