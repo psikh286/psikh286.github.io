@@ -26,7 +26,7 @@
 
 :root{
     --project-card-radius: 0px;
-    --project-card-opacity: 1;
+    --project-card-opacity: 0;
     --a: 1 - var(--project-card-opacity);
 }
 

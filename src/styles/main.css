@@ -44,7 +44,7 @@ p {
     padding-bottom: 2rem;
 }
 .highlighted{
-    color: #0073FF;
+    color: #1009c9;
     font-weight: bold;
 }
 .highlighted::selection{
