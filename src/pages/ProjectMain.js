@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { projects } from "../helpers/projectList";
 
 import { scroller, Element } from 'react-scroll';
+import { NavLink } from 'react-router-dom';
 
 
 import '../styles/projectPage.css'
@@ -29,6 +30,7 @@ const ProjectMain = () => {
     return ( 
         <div className="project">
             <div className="project__cover">
+                <NavLink to ={'/'} className="project__back-button"></NavLink>
                 <img src={project.mainImg} className="project__cover-img" alt="scroll down"></img>
                 <div className="down-button" onClick={handleScrollToBlock}>
                     <div className="down-button__body">
@@ -71,19 +73,19 @@ const ProjectMain = () => {
                         <img src={project.images[0]} alt="" />
                     </div>
                 </div>
-                <div className="project-main-descriptions">
+                <div className="project__main--container">
                     <div className="project-main-descr-card">
-                        <h2 className="title">Game Description</h2>
+                        <h2>Game Description</h2>
                         <div className="descr-text" dangerouslySetInnerHTML={{__html: project.info}}></div>
                     </div>
 
                     <div className="project-main-descr-card">
-                        <h2 className="title">Problems</h2>
+                        <h2>Problems</h2>
                         <div className="descr-text" dangerouslySetInnerHTML={{__html: project.problems}}></div>
                     </div>
 
                     <div className="project-main-descr-card">
-                        <h2 className="title">Solutions</h2>
+                        <h2>Solutions</h2>
                         <div className="descr-text" dangerouslySetInnerHTML={{__html: project.solutions}}></div>
                     </div>
                 </div>

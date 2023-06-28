@@ -45,6 +45,17 @@
     gap: var(--project-gap);
 }
 
+.project__back-button{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 0;
+    
+    z-index: 1000;
+    
+    background-color: red;
+}
+
 
 /* DETAILS */
 .project__details {
@@ -155,17 +166,23 @@
 
 
 
-.project-main-descriptions {
+.project__main--container {
     color: #FFFCF2;
     display: flex;
     flex-direction: column;
 
 }
-.project-main-descriptions h2 {
+.project__main--container h2 {
     font-family: 'Space Mono', monospace;
     font-weight: 900;
     text-align: left;
     margin-bottom: 10px;
+}
+
+.project-main-descr-card {
+    margin: 0 0 40px 0 ;
+    text-align: left;
+    font-family: 'Space Grotesk', monospace;
 }
 
 
