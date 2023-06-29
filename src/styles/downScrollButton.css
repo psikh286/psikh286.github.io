@@ -17,6 +17,7 @@
     align-items: center;
 
     cursor: pointer;
+    user-select: none;
 }
 .down-button__body{
     aspect-ratio: 1;
@@ -35,7 +36,6 @@
 }
 .up{
     top: 1.5rem;
-
     scale: 1 1 1;
 }
 
@@ -77,8 +77,6 @@
     background: var(--down-button__color);
     opacity: 0.5;
     position: absolute;
-
-    user-select: none;
 
     animation-duration: 2s;
     animation-iteration-count: infinite;
