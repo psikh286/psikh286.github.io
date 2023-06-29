@@ -9,7 +9,7 @@
 #root{
     min-height: 100vh;
     --orange: #FF8C00;
-    --purple: #8C00FF;
+    --purple: #7528FF;
 }
 
 /*#region Reset */
@@ -73,7 +73,7 @@ p {
 .section__header{
     font-family: "JetBrains Mono", serif;
     font-weight: 900;
-    font-size: clamp(3rem, 3.4vw, 11rem);
+    font-size: clamp(2rem, 1rem + 3.7vw, 10rem);
     color: white;
     
     background-color: var(--purple);
@@ -96,16 +96,16 @@ p {
 }
 
 .footer {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'JetBrains Mono', sans-serif;
 }
 
 .about {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'JetBrains Mono', sans-serif;
     position: relative;
 }
 
 .project {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'JetBrains Mono', sans-serif;
 }
 
 /*#endregion*/

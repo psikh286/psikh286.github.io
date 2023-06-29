@@ -2,14 +2,13 @@
     background-image: url(../../img/protoTexturesPng/Orange/texture_09.png);
     background-size: 20%;
 
-
-
     border-radius: var(--project-card-radius);
         
-    box-shadow: rgb(167, 75, 75);
-    
     aspect-ratio: 4/3;
     overflow: hidden;
+    
+    display: block;
+    padding: 0;
 }
 .project-card__container {
     display: flex;
@@ -51,7 +50,7 @@
     border-radius: var(--project-card-radius);
     
     opacity: max(var(--a), -1*var(--a));
-    transition: opacity 1s ease;
+    transition: opacity 0.5s ease;
 }
 
 .project-card__container:hover .project-card__img {
@@ -59,4 +58,20 @@
 }
 .project-card__container:hover .project-card__title {
     opacity: max(var(--a), -1*var(--a));
+}
+
+
+.project-card__icon{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    width: 10%;
+    aspect-ratio: 1;
+
+    transition: opacity 0.5s ease;
+    filter: invert(17%) sepia(61%) saturate(5808%) hue-rotate(260deg) brightness(100%) contrast(104%);
+}
+
+.project-card__container:hover .project-card__icon {
+    opacity: var(--project-card-opacity);
 }

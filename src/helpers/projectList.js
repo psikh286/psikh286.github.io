@@ -58,10 +58,10 @@ import parkourImage1 from '../img/parkour/parkour_0.png'
 const projects = [
     {
         //ON MAIN PAGE
-        "title" : "Party Chaos",
-        //"coverInfo" : 'How I made my ' + '<i>BEST</i>' + ' game',
-        "coverInfo" : 'My<h2>BEST</h2>Game',
+        "title" : "Tribe Sim",
+        "coverInfo" : '<h2>TRIBE SIM</h2>',
         "cover" : partyChaosCover,
+        "contribution" : '<li>Behavior Tree</li><li>Tick System</li><li>Inheritance System</li><li>Agent&#39s Behavior</li><li>Agent&#39s Memory</li><li>Simulation Control System</li>',
 
         //DETAILS
         "roles" : "Programmer, Game Designer",
@@ -72,7 +72,7 @@ const projects = [
         "engine": "Unity Engine",
 
         //BUTTONS
-        "gitHub": null,
+        "gitHub": "https://github.com/psikh286/SuSe23-TribeSim/tree/master/Geopolitics%20Sim/Assets/_Scripts",
         "itch": "https://psikh286.itch.io/party-chaos",
         
         //IMAGES
@@ -86,6 +86,68 @@ const projects = [
         "info" : 'Local multiplayer party game with the support of 2-8 people and a bunch of fun minigames. It is a “Pass the Controller” type game. <br/><br/> <i> I would love to answer your questions! However, I don’t want to share the code source.</i>',
         "problems" : '<ol><li>Players\' orders might feel repetitive over time.</li><li>Minigames order decided by pure random might lead to unfair outcomes while keeping order the same is repetitive. (old version of the game)</li><li>Create a procedurally generated Hub where players can pick the next game and make everything appealing.</li></ol>',
         "solutions" : '<ol><li>I implemented a shuffle to ensure that each person plays against every other person before reshuffling. And players can’t play 2 games in a row (except if it’s 1 player team).</li><li> We divided our games on the “type” of skills(fast/luck/skill-based) and the emotions that they invoke. After we created templates of which type of games should be played next. And I made a system that uses those templates to pick random but suitable games. (old version of the game)</li><li>I recreated mini versions(previews) of each minigame in the Hub, where players can test it and vote if they like it. After a minigame is played, the preview turns gray until all minigames are played. And to make everything a bit cooler, added Lego building stile animations for previews and a bunch of physics objects to mess around with.</li></ol>',
+    },
+    {
+        //ON MAIN PAGE
+        "title" : "Party Chaos",
+        "coverInfo" : '<h2>PARTY CHAOS</h2>',
+        "cover" : partyChaosCover,
+        "contribution" : '<li>Team System</li><li>Minigames Logic</li><li>Procedurally Generated Hub </li><li>Minigames Design</li><li>Level Design</li><li>Post-Processing</li><li>Board Game System (v0.1)</li>',
+
+        //DETAILS
+        "roles" : "Programmer, Game Designer",
+        "semester": "2nd/3rd",
+        "teamSize": "2",
+        "time": "100 hours/60hours",
+        "date": "30.05.2022",
+        "engine": "Unity Engine",
+
+        //BUTTONS
+        "gitHub": null,
+        "itch": "https://psikh286.itch.io/party-chaos",
+
+        //IMAGES
+        "mainImg" : partyChaosMainImage,
+        "images" : [
+            partyChaosImage0,
+            partyChaosImage1
+        ],
+
+        //TEXT
+        "info" : 'Local multiplayer party game with the support of 2-8 people and a bunch of fun minigames. It is a “Pass the Controller” type game. <br/><br/> <i> I would love to answer your questions! However, I don’t want to share the code source.</i>',
+        "problems" : '<ol><li>Players\' orders might feel repetitive over time.</li><li>Minigames order decided by pure random might lead to unfair outcomes while keeping order the same is repetitive. (old version of the game)</li><li>Create a procedurally generated Hub where players can pick the next game and make everything appealing.</li></ol>',
+        "solutions" : '<ol><li>I implemented a shuffle to ensure that each person plays against every other person before reshuffling. And players can’t play 2 games in a row (except if it’s 1 player team).</li><li> We divided our games on the “type” of skills(fast/luck/skill-based) and the emotions that they invoke. After we created templates of which type of games should be played next. And I made a system that uses those templates to pick random but suitable games. (old version of the game)</li><li>I recreated mini versions(previews) of each minigame in the Hub, where players can test it and vote if they like it. After a minigame is played, the preview turns gray until all minigames are played. And to make everything a bit cooler, added Lego building stile animations for previews and a bunch of physics objects to mess around with.</li></ol>',
+    },
+    {
+        //ON MAIN PAGE
+        "title" : "Mendelian Genetics",
+        "coverInfo" : '<h2>INHERITANCE SIM</h2>',
+        "cover" : geneticsCover,
+        "contribution" : '<li>Inheritance System</li><li>Gene/Trait System</li><li> Agent&#39s State Machine</li>',
+
+        //DETAILS
+        "roles" : "Programmer",
+        "semester": null,
+        "teamSize": "1",
+        "time": "4 hours",
+        "date": "May 2023 (paused)",
+        "engine": "Unity Engine",
+
+        //BUTTONS
+        "gitHub": "https://github.com/psikh286/Mendelian-Genetics/tree/master/Heredity/Assets/_Scripts",
+        "itch": null,
+
+        //IMAGES
+        "mainImg" : geneticsMainImage,
+        "images" : [
+            geneticsImage0,
+            geneticsImage1
+        ],
+
+        //TEXT
+        "info" : 'Inspired by <a href="https://www.youtube.com/watch?v=raQ3iHhE_Kk" target="_blank" rel="noreferrer">this talk</a>. The project is an experiment with <a href="https://en.wikipedia.org/wiki/Mendelian_inheritance" target="_blank" rel="noreferrer">simple inheritance patterns</a> and aims to be designer-friendly by allowing easy modifications through the Unity inspector without opening the code editor. It can be expanded without extra refactoring.',
+        "problems" : "Keep everything simple for the user and, at the same time, have complex functionality.",
+        "solutions" : "I divided everything into chunks, so traits, relations between each other, and a list of those traits(genotypes) are separate objects in Unity Inspector. It also makes everything modular and reusable. I used Scriptable Objects as a bridge between designers and programmers. "
     },
     {
         //ON MAIN PAGE
@@ -209,36 +271,6 @@ const projects = [
     },
     {
         //ON MAIN PAGE
-        "title" : "Mendelian Genetics",
-        "coverInfo" : 'My experiment with <h2>SCRIPTABLE OBJECTS</h2>',
-        "cover" : geneticsCover,
-
-        //DETAILS
-        "roles" : "Programmer",
-        "semester": null,
-        "teamSize": "1",
-        "time": "4 hours",
-        "date": "May 2023 (paused)",
-        "engine": "Unity Engine",
-
-        //BUTTONS
-        "gitHub": "https://github.com/psikh286/Mendelian-Genetics",
-        "itch": null,
-
-        //IMAGES
-        "mainImg" : geneticsMainImage,
-        "images" : [
-            geneticsImage0,
-            geneticsImage1
-        ],
-
-        //TEXT
-        "info" : 'Inspired by <a href="https://www.youtube.com/watch?v=raQ3iHhE_Kk" target="_blank" rel="noreferrer">this talk</a>. The project is an experiment with <a href="https://en.wikipedia.org/wiki/Mendelian_inheritance" target="_blank" rel="noreferrer">simple inheritance patterns</a> and aims to be designer-friendly by allowing easy modifications through the Unity inspector without opening the code editor. It can be expanded without extra refactoring.',
-        "problems" : "Keep everything simple for the user and, at the same time, have complex functionality.",
-        "solutions" : "I divided everything into chunks, so traits, relations between each other, and a list of those traits(genotypes) are separate objects in Unity Inspector. It also makes everything modular and reusable. I used Scriptable Objects as a bridge between designers and programmers. "
-    },
-    {
-        //ON MAIN PAGE
         "title" : "Crafting Game",
         "coverInfo" : 'How I build a simple <h2>EXPANDABLE</h2> crafting <h2>SYSTEM</h2>',
         "cover" : craftingCover,
@@ -296,7 +328,7 @@ const projects = [
         "info" : "As a 1st experience in Unreal Engine, we built a parkour movement demo with features like wall running, sliding, air dash, and more. We used the <a href='https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1' target='_blank' rel='noreferrer'>ALSv4 package</a> as a foundation.",
         "problems" : "The main problem was that I didn’t have an experience with Unreal.",
         "solutions" : "Learning Unreal from scratch wasn’t possible, so I started to define similarities and differences with Unity. After a while, I had a clearer picture of how to implement stuff, and I used my Bolt (Visual Scripting in Unity) knowledge gained in the 1st semester to make wall-running and air-dash.\n"
-    }
+    },
 ];
 
 export { projects };

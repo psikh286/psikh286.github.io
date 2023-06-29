@@ -4,6 +4,7 @@
 }
 .header__container {
     height: 100vh;
+    
     background-image: url(../../img/protoTexturesPng/Dark/texture_08.png);
     background-size: 30%;
 }

@@ -1,5 +1,5 @@
 ﻿#portfolio {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'JetBrains Mono', serif;
     
     background-image: url("../img/protoTexturesPng/Dark/texture_08.png");
     background-size: 30%;
@@ -9,28 +9,109 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 10rem;
+    padding-top: clamp(7rem, 7rem + 10vh, 20rem);
 }
 
 .portfolio__best{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 2rem;
 
-    grid-template-columns: repeat(auto-fit, clamp(300px, 25vw, 1000px));
-    padding: 0 40px;
-    width: 100%;
+    width: 45%;
 
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
 }
 .portfolio__cards {
     display: grid;
     justify-content: center;
-    gap: 20px;
+    gap: 2rem;
 
-    grid-template-columns: repeat(auto-fit, clamp(300px, 25vw, 1000px));
+    grid-template-columns: repeat(auto-fit, clamp(300px, 20vw, 1000px));
     padding: 0 40px;
     width: 100%;
 
     margin-bottom: 2rem;
+}
+
+.portfolio__best-container{
+    display: grid;
+    
+    grid-template-columns: 60% 40%;
+    
+    gap: 2rem;
+}
+
+.portfolio__wid{
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+    
+    height: min-content;
+}
+.portfolio__wid h2{
+    font-weight: 900;
+    user-select: none;
+    
+    font-size: clamp(1.2rem, 0.2rem + 1.5vw, 5rem);
+}
+.portfolio__wid ul{    
+    width: 100%;
+    
+    text-align: left;
+    
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1px;
+    grid-template-rows: repeat(7, auto);
+    
+    list-style-type: disc;
+    list-style-position: inside;
+    
+    font-size: clamp(0.6rem, 0.2rem + 0.7vw, 3rem);
+}
+
+
+.portfolio__buttons{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolio__button{
+    position: relative;
+    background-color: black;
+
+    padding: 1rem;
+    height: min-content;
+}
+
+.portfolio__button p{
+    font-weight: 900;
+    color: var(--orange);
+    font-size: clamp(0.8rem, 0.6rem + 0.7vw, 2.5rem);
+}
+.portfolio__button:hover .project__icon{
+    opacity: 1;
+    filter: invert(60%) sepia(36%) saturate(5211%) hue-rotate(2deg) brightness(106%) contrast(102%);
+}
+.portfolio__button:hover p{
+    opacity: 0;
+}
+
+@media screen and (orientation: portrait) {
+    .portfolio__best{
+        
+        width: 80%;
+    }
+    .portfolio__best-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        gap: 1rem;
+    }
 }
