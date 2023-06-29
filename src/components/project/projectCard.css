@@ -40,7 +40,7 @@
     
     
     word-break: normal;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'JetBrains Mono', sans-serif;
     font-size: clamp(1rem, 1rem + 0.7005vw, 2.5rem);
     color: black;
 }

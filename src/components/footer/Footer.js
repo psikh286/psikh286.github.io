@@ -1,7 +1,7 @@
 
-import twitter from "../../img/twitter.svg";
-import gitHub from "../../img/github.svg";
-import linkedIn from "../../img/linkedin.svg";
+import twitter from "../../img/linkLogos/twitter.svg";
+import gitHub from "../../img/linkLogos/github.svg";
+import linkedIn from "../../img/linkLogos/linkedin.svg";
 
 import './footer.css';
 

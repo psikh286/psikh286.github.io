@@ -10,8 +10,8 @@ import '../styles/projectPage.css'
 import '../styles/downScrollButton.css'
 
 import arrowIcon from '../img/upButton.svg'
-import gitIcon from '../img/github.svg'
-import itchIcon from '../img/itch-io.svg'
+import gitIcon from '../img/linkLogos/github.svg'
+import itchIcon from '../img/linkLogos/itch-io.svg'
     
 const ProjectMain = () => {
     const {id} = useParams();
@@ -30,9 +30,9 @@ const ProjectMain = () => {
     return ( 
         <div className="project">
             <div className="project__cover">
-                <NavLink to ={'/'} className="project__back-button"></NavLink>
+                <NavLink to ={'/'} className="project__back-button">Go Back</NavLink>
                 <img src={project.mainImg} className="project__cover-img" alt="scroll down"></img>
-                <div className="down-button" onClick={handleScrollToBlock}>
+                <div className="down-button down" onClick={handleScrollToBlock}>
                     <div className="down-button__body">
                         <img src={arrowIcon} alt="scrollDown"/>
                     </div>

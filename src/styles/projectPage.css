@@ -47,13 +47,19 @@
 
 .project__back-button{
     position: absolute;
-    width: 100px;
-    height: 40px;
-    left: 0;
+    width: 8%;
+    height: 4%;
+    left: 1.4%;
+    top: 2%;
     
     z-index: 1000;
     
-    background-color: red;
+    background-color: var(--orange);
+    text-align: center;
+    font-family: "JetBrains Mono", serif;
+    font-weight: 900;
+    color: black;
+    font-size: 1.5rem;
 }
 
 
@@ -104,10 +110,7 @@
 }
 
 
-
-/**/
-
-
+/*BUTTONS*/
 .project__buttons-container {
     display: flex;
     flex-direction: column;    
@@ -128,6 +131,7 @@
     height: 100%;
     
     user-select: none;
+    position: relative;
 }
 
 .project__button:hover .project__icon{
@@ -146,12 +150,13 @@
 .project__icon{
     position: absolute;
     opacity: 0;
-    scale: 1.5;
+    
+    height: 80%;
+    width: 80%;
 }
 
 
-/**/
-
+/*IMAGE*/
 .project__image {
     aspect-ratio: 16/9;    
     grid-area: image;    
@@ -206,5 +211,11 @@
     }
     .project__buttons-container{
         row-gap: calc(var(--project-gap) * 0.5);
+    }
+
+    .project__back-button{
+        width: 20%;
+
+        left: 3.8%;
     }
 }

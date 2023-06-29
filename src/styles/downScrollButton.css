@@ -4,12 +4,11 @@
 
 .down-button{
     aspect-ratio: 1;
-    height: 10%;
+    height: clamp(4rem, 3rem + 3.7vw, 12rem);
     
     
     margin: 0 auto;
     position: absolute;
-    bottom: 1.5rem;
     left: 0;
     right: 0;
     
@@ -24,17 +23,30 @@
     height: 50%; 
     
     background: var(--down-button__color);
-    z-index: 1;   
+    z-index: 1;
+
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.down{
+    bottom: 1.5rem;
+    scale: 1 -1 -1;
+}
+.up{
+    top: 1.5rem;
+
+    scale: 1 1 1;
 }
 
 
 /* Custom Animate.css */
 
+
 .down-button__body img{
     place-self: center;
     aspect-ratio: 1;
     height: 50%;
-    scale: 1 -1 1;
     margin: 25%;
 
     animation-duration: 2s;
@@ -44,17 +56,17 @@
 }
 @keyframes upDown {
     0% {
-        translate: 0 -40%;
+        translate: 0 10%;
     }
 
-    55% {
+    50% {
 
-        translate: 0 40%;
+        translate: 0 -40%;
         
     }
 
     100% {
-        translate: 0 -40%;
+        translate: 0 10%;
     }
 }
 
@@ -86,4 +98,8 @@
     100% {
         opacity: 0;
     }
+}
+
+.down-button__body:hover{
+    scale: 1.1;
 }

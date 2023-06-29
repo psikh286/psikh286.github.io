@@ -1,7 +1,7 @@
 .footer {
 	margin-top: auto;
 	padding: 15px 0 15px;
-	background-image: url("../../img/protoTexturesPng/Dark/texture_08.png");
+	background-image: url("../../img/protoTexturesPng/Light/texture_07.png");
 	background-size: 5%;
     color: aliceblue;
 }
@@ -17,7 +17,6 @@
 	align-items: center;
 }
 .footer__icon{
-	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(61deg) brightness(103%) contrast(101%);
 	user-select: none;
 	
 	width: clamp(2rem, 1.7294rem + 1.1544vw, 4.5rem);
@@ -31,11 +30,12 @@
 
 .footer__email {
 	font-size: clamp(0.9rem, 0.8242rem + 0.3232vw, 1.6rem);
-	font-family: "Space grotesk", sans-serif;
-	color: #FFFCF2;
+	font-family: "JetBrains Mono", sans-serif;
+	color: black;
+	font-weight: 700;
 }
 .footer__email:hover{
 	filter: invert(48%) sepia(88%) saturate(1018%) hue-rotate(1deg) brightness(105%) contrast(103%);
 	
-	font-weight: bold;
+	font-weight: 900;
 }

@@ -6,10 +6,13 @@ import Navbar from "./../components/navbar/Navbar"
 const Home = () => {
     return ( 
         <div className="home__container">
-            <Navbar />
+            {/*<Navbar />*/}
             <Header />
+            <div className="cut"></div>
+            <About/>
+            <div className="cut"></div>
             <Projects />
-            <About />
+            
         </div>
      );
 }

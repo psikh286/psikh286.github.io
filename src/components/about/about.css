@@ -1,60 +1,71 @@
 .about {
+    height: 100vh;
+    background-image: url(../../img/protoTexturesPng/Dark/texture_08.png);
+    background-size: 30%;
+    
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    flex-direction: column;
-    margin: 10rem 0;
-}
-.about__container {
-    
-    background-color: #FF8C00; 
-    
-    padding: 20px;
-                
-    width: clamp(350px, 30%, 500px);
-    overflow: hidden;    
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .about__info {
-    padding: 15px;
-    color: #FFFCF2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(0.3rem, 1.25vw, 3rem);
+    width: 40%;
 }
 .about__title {
     font-size: clamp(2rem, 2.7706vw, 8rem);
     color: black;
+    text-align: center;
+    font-family: "JetBrains Mono", serif;
+    font-weight: 900;
+        
+    user-select: none;
 }
 .about__text {
     
     color: black;
     font-size: clamp(1rem, 1.3vw, 4rem);
     
-    text-align: left;
+    text-align: center;
     
     
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "JetBrains Mono", monospace;
 }
-
-.about__download{
+.about__download{    
     background-color: black;
     background-size: 30%;
     
-    color: #FF8C00;
+    color: var(--orange);
         
     margin-top: 1rem;
     padding: 10px;
-    font-size: 2rem;
+    font-size: clamp(1rem, 0.5rem + 1.3vw, 4rem);
+    font-family: "JetBrains Mono", serif;
+    font-weight: 700;
     
-    transition: all 0.4s ease-in-out;
-        
-    transform:  translateZ(0);
-    backface-visibility: hidden;    
+    transition: all 0.2s ease-in-out;
+}
+.about__download:hover{
+    color: var(--purple);
 }
 
-.about__download:hover{
-    transform: scale(1.1);
+.about__contacts{
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    
+    background-color: var(--purple);
+}
+
+
+@media screen and (orientation: portrait)  {
+    .about__info{
+        width: 90%;
+    }
 }

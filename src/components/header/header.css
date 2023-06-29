@@ -4,43 +4,44 @@
 }
 .header__container {
     height: 100vh;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
-/* TOP */
-.header__top {
-    display: flex;
-    flex: 1;
-    justify-content: left;
-    align-content: flex-end;
-    flex-wrap: wrap;
-
-    background-color: #252525;
     background-image: url(../../img/protoTexturesPng/Dark/texture_08.png);
     background-size: 30%;
 }
+
+/* TOP */
 .header__info {
-    height: fit-content;
-    margin-left: 16%;
-    margin-bottom: 4%;
+    height: 100%;
     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: clamp(1rem, 1.6vw, 5rem);
 }
 .header__name {
-    font-size: clamp(4rem, 0.4rem + 5.1372vw, 15rem);    
+    text-align: center;
+    font-size: clamp(1.8rem, 6vw, 15rem);
+    padding: 0.7rem;
     line-height: 100%;
-    color: #FFFCF2;
-    text-shadow: 7px 1px 9px rgba(40,17,11,0.68);
+    width: max-content;
+    color: black;
     user-select: none;
+
 }
 .header__role{
-    color: rgb(166, 168, 170);
-    font-size: clamp(1rem, 0.8187rem + 0.7005vw, 2.5rem);
-    text-shadow: 7px 1px 9px rgba(40,17,11,0.68);
+    color: white;
+    font-size: clamp(1rem, 3vw, 8rem);
     
     user-select: none;
+
+    background-color: var(--purple);
+    padding: 0.7rem;
+    line-height: 100%;
+    width: max-content;
 }
+
+
 
 /* DOOM BAR */
 .header__doombar {      
