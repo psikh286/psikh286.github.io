@@ -12,7 +12,7 @@ const Navbar = () => {
     const handleScroll = () => {
       const scroll = window.scrollY + 400;
       const homeObject = document.querySelector("#header");
-      const galleryObject = document.querySelector("#section");
+      const galleryObject = document.querySelector("#portfolio");
       const aboutObject = document.querySelector("#about");
       let translateX = '';
   
