@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.628b062a.css",
-    "main.js": "/static/js/main.cc5e86a4.js",
+    "main.css": "/static/css/main.60ceb93a.css",
+    "main.js": "/static/js/main.aef7bf61.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/PartyChaos_1.png": "/static/media/PartyChaos_1.0c50befea87f15bf032f.png",
     "static/media/PartyChaos_5.png": "/static/media/PartyChaos_5.b8f0b321e85bef04de3b.png",
@@ -34,17 +34,18 @@
     "static/media/Gravity_cover.png": "/static/media/Gravity_cover.2f6207bc753ee806975e.png",
     "static/media/itch-io.svg": "/static/media/itch-io.a22e3052637b95c3feef1c425cbe2f2c.svg",
     "static/media/twitter.svg": "/static/media/twitter.3b500ff179f7259340a03825edbd4323.svg",
+    "static/media/link.svg": "/static/media/link.72fe1bbf0d1dd7f6c37ccdc48477b1ec.svg",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.163c5fa63dc15a8cb5953c5fea8a2863.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.c7edb0f3cd867a03828551d841262eb6.svg",
     "static/media/email.svg": "/static/media/email.1b72311c0e0256ca23b0ee476fad15d4.svg",
     "static/media/upButton.svg": "/static/media/upButton.47d91978023cf04c3da65d3815b286e8.svg",
-    "main.628b062a.css.map": "/static/css/main.628b062a.css.map",
-    "main.cc5e86a4.js.map": "/static/js/main.cc5e86a4.js.map",
+    "main.60ceb93a.css.map": "/static/css/main.60ceb93a.css.map",
+    "main.aef7bf61.js.map": "/static/js/main.aef7bf61.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.628b062a.css",
-    "static/js/main.cc5e86a4.js"
+    "static/css/main.60ceb93a.css",
+    "static/js/main.aef7bf61.js"
   ]
 }
