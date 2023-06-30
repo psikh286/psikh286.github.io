@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.60ceb93a.css",
-    "main.js": "/static/js/main.aef7bf61.js",
+    "main.css": "/static/css/main.fbdf4297.css",
+    "main.js": "/static/js/main.d7489caf.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/PartyChaos_1.png": "/static/media/PartyChaos_1.0c50befea87f15bf032f.png",
     "static/media/PartyChaos_5.png": "/static/media/PartyChaos_5.b8f0b321e85bef04de3b.png",
+    "static/media/sotr_main.png": "/static/media/sotr_main.f0bd1639bf2d87bfa903.png",
+    "static/media/sotr_1.png": "/static/media/sotr_1.c4dda2cc93acc2a85a1e.png",
+    "static/media/sotr_2.png": "/static/media/sotr_2.b4204ad115ff7caaccde.png",
     "static/media/PartyChaos_0.png": "/static/media/PartyChaos_0.e377731d915cc2ec079d.png",
     "static/media/parkour_0.png": "/static/media/parkour_0.0f0cfd60ebf017a89ef3.png",
     "static/media/parkour_main.png": "/static/media/parkour_main.71a3f2cfeb20b57667c6.png",
     "static/media/parkour_1.png": "/static/media/parkour_1.95d4af83c7f9b79a136d.png",
     "static/media/parkour_cover.png": "/static/media/parkour_cover.4b59d59cb3dafba9f267.png",
+    "static/media/sotr_cover.png": "/static/media/sotr_cover.939f4821e420c7e508aa.png",
     "static/media/PartyChaos_cover.png": "/static/media/PartyChaos_cover.f7c63f971e81f029f5c7.png",
+    "static/media/Tribe_2.png": "/static/media/Tribe_2.eab73779dd0762ce7785.png",
+    "static/media/Tribe_main.png": "/static/media/Tribe_main.b0bb5e927bd0f469e57d.png",
     "static/media/Craft_2.png": "/static/media/Craft_2.99e8a745284c062582ee.png",
-    "static/media/SoundOfTheRoad_cover.png": "/static/media/SoundOfTheRoad_cover.329799939144f8c2f6f1.png",
+    "static/media/Tribe_1.png": "/static/media/Tribe_1.eec19b95a099620c922a.png",
+    "static/media/Tribe_cover.png": "/static/media/Tribe_cover.5b0433ef02dd71308011.png",
     "static/media/Craft_1.png": "/static/media/Craft_1.4cda24c7f4fef01aa39b.png",
     "static/media/Slimy_cover.png": "/static/media/Slimy_cover.007880af65e4ed93e917.png",
     "static/media/Slimy_main.png": "/static/media/Slimy_main.eb31c4dce458153b555b.png",
@@ -40,12 +47,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.c7edb0f3cd867a03828551d841262eb6.svg",
     "static/media/email.svg": "/static/media/email.1b72311c0e0256ca23b0ee476fad15d4.svg",
     "static/media/upButton.svg": "/static/media/upButton.47d91978023cf04c3da65d3815b286e8.svg",
-    "main.60ceb93a.css.map": "/static/css/main.60ceb93a.css.map",
-    "main.aef7bf61.js.map": "/static/js/main.aef7bf61.js.map",
+    "main.fbdf4297.css.map": "/static/css/main.fbdf4297.css.map",
+    "main.d7489caf.js.map": "/static/js/main.d7489caf.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60ceb93a.css",
-    "static/js/main.aef7bf61.js"
+    "static/css/main.fbdf4297.css",
+    "static/js/main.d7489caf.js"
   ]
 }
