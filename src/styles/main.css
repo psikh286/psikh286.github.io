@@ -114,33 +114,6 @@ p {
     display: flex;
 }
 
-.descr-text{
-    word-break: break-word;
-}
-
-
-
-.test {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    z-index: -1;
-    top: -3px;
-}
-
-.descr-text a{
-  color: #44ffaa;
-}
-
-.descr-text ol{
-    padding-left: 1.2em;
-    display: flex;
-    row-gap: 14px;
-    flex-direction: column;
-}
-
 @font-face {
     font-family: 'JetBrains Mono';
     font-weight: 400;
