@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce482d1b.css",
+    "main.css": "/static/css/main.4e576c23.css",
     "main.js": "/static/js/main.ccd17e01.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/PartyChaos_1.png": "/static/media/PartyChaos_1.0c50befea87f15bf032f.png",
@@ -50,12 +50,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.c7edb0f3cd867a03828551d841262eb6.svg",
     "static/media/email.svg": "/static/media/email.1b72311c0e0256ca23b0ee476fad15d4.svg",
     "static/media/upButton.svg": "/static/media/upButton.47d91978023cf04c3da65d3815b286e8.svg",
-    "main.ce482d1b.css.map": "/static/css/main.ce482d1b.css.map",
+    "main.4e576c23.css.map": "/static/css/main.4e576c23.css.map",
     "main.ccd17e01.js.map": "/static/js/main.ccd17e01.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce482d1b.css",
+    "static/css/main.4e576c23.css",
     "static/js/main.ccd17e01.js"
   ]
 }
