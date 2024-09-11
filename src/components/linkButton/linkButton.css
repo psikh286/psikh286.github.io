@@ -1,0 +1,75 @@
+.portfolio__buttons{
+    width: 100%;
+    height: var(--portfolio-button-height);
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolio__button{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    width: 30%;
+}
+
+.portfolio__button--fill{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 0;
+    opacity: 100%;
+
+    transition: opacity var(--portfolio-button-animation-lenght) ease 0s, width var(--portfolio-button-animation-lenght) ease var(--portfolio-button-animation-lenght), border-radius var(--portfolio-button-animation-lenght) ease var(--portfolio-button-animation-lenght);
+}
+.portfolio__button--fill p{
+    font-weight: 900;
+    color: var(--orange);
+    font-size: clamp(1.2rem, 0.6rem + 0.5vw, 2.5rem);
+
+    transition: opacity 0.2s ease 0.2s;
+}
+
+.portfolio__button:hover .portfolio__button--fill{
+    width: var(--portfolio-button-height);
+    border-radius: 50%;
+    opacity: 0;
+
+    transition: width var(--portfolio-button-animation-lenght) ease, border-radius var(--portfolio-button-animation-lenght) ease, opacity var(--portfolio-button-animation-lenght) ease var(--portfolio-button-animation-lenght);
+}
+
+.portfolio__button:hover .project__icon{
+    opacity: 1;
+}
+.portfolio__button:hover p{
+    position: absolute;
+    opacity: 0;
+
+    transition: opacity 0s ease 0s;
+}
+
+
+.project__icon{
+    position: absolute;
+    opacity: 0;
+
+    height: 100%;
+    width: 100%;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}

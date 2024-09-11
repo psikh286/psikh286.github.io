@@ -1,16 +1,11 @@
 import "./styles/main.css"
 
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
-
-// import Navbar from "./components/navbar/Navbar";
-import Home from "./pages/Home";
-import ProjectMain from "./pages/ProjectMain";
+import HomePage from "./pages/HomePage";
+import ProjectPage from "./pages/ProjectPage";
 import ScrollToTop from "./components/utils/scrollToTop";
 import Footer from "./components/footer/Footer";
-import Upbtn from "./components/Upbtn/Upbtn";
-
 
 
 function App() {
@@ -19,11 +14,10 @@ function App() {
       <Router>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project/:id" element={<ProjectMain />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/project/:id" element={<ProjectPage />} />
         </Routes>
       </Router>
-      <Upbtn />
       <Footer />
     </div>
   );

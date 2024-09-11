@@ -1,7 +1,7 @@
 import './header.css'
 import {Element, scroller} from 'react-scroll';
 
-import ScrollButton from "../utils/ScrollButton";
+import ScrollButton from "../utils/scrollButton/ScrollButton";
 
 let style = {display:"inline-block", color:"rgb(0, 0, 0)", cursor:"pointer"};
 
@@ -43,17 +43,15 @@ function getRandomColor(color){
 
 const Header = () => {
     return ( 
-        <Element className="header" id='header'>
-            <div className="header__container">              
-                <div className="header__info">
-                    <p className="header__name block"> HELLO!</p>
-                    <p className="header__name block" id="aboba"> I AM {text[0]}{text[1]}{text[2]}{text[3]} {text[4]}{text[5]}{text[6]}{text[7]}{text[8]}{text[9]}{text[10]}{text[11]}</p>
-                    <p className="header__role block">GAME PROGRAMMER</p>
-                </div>
-                
-                <ScrollButton dir={"down"} dest={"about"}/>
+        <div className="header" id='header'>
+            <div className="header__info">
+                <p className="header__name block"> HELLO!</p>
+                <p className="header__name block" id="aboba"> I AM {text[0]}{text[1]}{text[2]}{text[3]} {text[4]}{text[5]}{text[6]}{text[7]}{text[8]}{text[9]}{text[10]}{text[11]}</p>
+                <p className="header__role block">GAME PROGRAMMER</p>
             </div>
-        </Element>
+        
+            <ScrollButton dir={"down"} dest={"about"}/>
+        </div>
      );
 }
  
