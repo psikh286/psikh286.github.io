@@ -22,7 +22,7 @@
     transition: transform 0.1s ease-in-out;
 }
 .project__back-button:hover{
-    transform: scale(110%);
+    transform: scale(90%);
 }
 
 :root{
@@ -51,6 +51,11 @@
 .project__info a{
     color: var(--purple);
     font-weight: 700;
+    text-decoration: underline;
+}
+
+.project__info a:hover{
+    color: #9e69ff;
 }
 
 /*IMAGE*/
@@ -103,9 +108,13 @@
 
     display: grid;
     grid-auto-flow: column;
-    grid-template-rows: repeat(7, auto);
+    grid-template-rows: repeat(9, auto);
     
     font-size: clamp(1.2rem, 0.2rem + 0.7vw, 3rem);
+}
+
+.dotted {
+    list-style: inside;
 }
 
 .project__details hr{
@@ -117,7 +126,8 @@
 .project__problems {
     background-color: var(--purple);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
     color: white;
 }
 

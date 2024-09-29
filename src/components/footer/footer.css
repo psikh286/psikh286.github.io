@@ -26,7 +26,7 @@
 }
 .footer__icon:hover{	
 	filter: invert(48%) sepia(88%) saturate(1018%) hue-rotate(1deg) brightness(105%) contrast(103%);
-	scale: 1.2;
+	scale: 1.1;
 }
 
 .footer__email {

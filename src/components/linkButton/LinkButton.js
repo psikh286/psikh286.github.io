@@ -1,6 +1,7 @@
 import './linkButton.css'
 
 import itchIcon from "../../img/linkLogos/itch-io.svg";
+import unknownIcon from "../../img/linkLogos/play-icon.svg";
 import gitIcon from "../../img/linkLogos/github.svg";
 
 const ProjectCard = ({project}) => {
@@ -19,7 +20,7 @@ const ProjectCard = ({project}) => {
                     <div className="portfolio__button--fill">
                         <p>Play it!</p>
                     </div>
-                    <img src={itchIcon} alt="itch-icon" className="project__icon" />
+                    <img src={project.hostPlatform != null ? unknownIcon : itchIcon} alt="itch-icon" className="project__icon" />
                 </a> )}
         </div>
     );

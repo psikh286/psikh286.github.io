@@ -94,7 +94,7 @@
 @media screen and (orientation: portrait) {
     .project-card__title {
         opacity: 1;
-        color: var(--orange);
+        color: white;
         text-shadow: black 2px 2px;
     }
 

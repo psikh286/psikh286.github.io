@@ -41,7 +41,7 @@ const ProjectPage = () => {
                         <li dangerouslySetInnerHTML={{__html: '<b>Roles: </b>' + project.roles}}></li>
                         {project.semester && <li dangerouslySetInnerHTML={{__html: '<b>Semester: </b>' + project.semester}}></li>}
                         <li dangerouslySetInnerHTML={{__html: '<b>Team Size: </b>' + project.teamSize}}></li>
-                        {/*<li dangerouslySetInnerHTML={{__html: '<b>Time Spent: </b>' + project.time}}></li>*/}
+                        <li dangerouslySetInnerHTML={{__html: '<b>Time Spent: </b>' + project.time}}></li>
                         <li dangerouslySetInnerHTML={{__html: '<b>Date: </b>' + project.date}}></li>
                         <li dangerouslySetInnerHTML={{__html: '<b>Engine: </b>' + project.engine}}></li>
                     
@@ -52,7 +52,7 @@ const ProjectPage = () => {
                     <h2>MY CONTRIBUTIONS</h2>
                     <hr/>
                     
-                    <ul className="project__details" dangerouslySetInnerHTML={{__html:project.contribution}}></ul>
+                    <ul className="project__details dotted" dangerouslySetInnerHTML={{__html:project.contribution}}></ul>
                 </div>
                 <div className="project__problems block">
                     <div>
