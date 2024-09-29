@@ -31,14 +31,9 @@ import soundOfTheRoadImage0 from '../img/soundOfTheRoad/sotr_1.png'
 import soundOfTheRoadImage1 from '../img/soundOfTheRoad/sotr_2.png'
 
 //GENETICS
-/*import geneticsCover from '../img/genetics/Genetics_cover.png'
-import geneticsMainImage from '../img/genetics/Genetics_main.png'
-import geneticsImage0 from '../img/genetics/Genetics_1.png'
-import geneticsImage1 from '../img/genetics/Genetics_2.png'*/
-import geneticsCover from '../img/blank.png'
-import geneticsMainImage from '../img/blank.png'
-import geneticsImage0 from '../img/blank.png'
-import geneticsImage1 from '../img/blank.png'
+import geneticsCover from '../img/inher/inher_cover.png'
+import geneticsImage0 from '../img/inher/Inher_0.png'
+import geneticsImage1 from '../img/inher/Inher_1.png'
 
 //CRAFT
 import craftingCover from '../img/crafting/Craft_cover.png'
@@ -57,47 +52,62 @@ import tribeCover from '../img/tribe/Tribe_cover.png'
 import tribeMainImage from '../img/tribe/Tribe_main.png'
 import tribeImage0 from '../img/tribe/Tribe_1.png'
 import tribeImage1 from '../img/tribe/Tribe_2.png'
-import LinkButton from "../components/linkButton/LinkButton";
+
+///ELTO
+import eltoCover from '../img/elto/elto_Cover.png'
+import eltoImage0 from '../img/elto/elto_0.png'
+import eltoImage1 from '../img/elto/elto_1.png'
 
 
 //endregion
 
+/*
+* hostPlatform 
+* 0 or null = itch.io
+* 1 = unknown
+* 2 = steam
+*/
+
 const projects = [
     {
         //ON MAIN PAGE
-        "title" : "Tribe Sim",
-        "coverInfo" : '<h2>TRIBE SIM</h2>',
-        "cover" : tribeCover,
-        "contribution" : '<li>Behavior Tree</li><li>Tick System</li><li>Inheritance System</li><li>Agent&#39s Behavior</li><li>Agent&#39s Memory</li><li>Simulation Control System</li>',
+        "title" : "Electrify Today",
+        "coverInfo" : 'My first <h2>OFFICIAL RELEASE</h2>',
+        "cover" : eltoCover,
+        "contribution" : '<li>Polishing and Releasing</li><li>Optimization</li><li>Tools for Designers</li><li>Energy + Upgrade Systems</li><li>Quiz System</li><li>Car Modification System</li><li>UI Logic</li><li>Music/Audio Logic</li>',
 
         //DETAILS
-        "roles" : "Programmer, Game Designer",
-        "semester": "2nd/3rd",
-        "teamSize": "2",
-        "time": "100 hours/60hours",
-        "date": "30.05.2022",
+        "roles" : "Programmer",
+        "semester": null,
+        "teamSize": "10-12",
+        "time": "1000+ hours",
+        "date": "June 2024",
         "engine": "Unity Engine",
 
         //BUTTONS
-        "gitHub": "https://github.com/psikh286/SuSe23-TribeSim/tree/master/Geopolitics%20Sim/Assets/_Scripts",
-        "itch": "https://psikh286.itch.io/party-chaos",
-        
+        "gitHub": null,
+        "itch": 'https://tech-education.com/electrify-today-en/',
+        "hostPlatform": 1,
+
         //IMAGES
-        "mainImg" : tribeMainImage,
         "images" : [
-            tribeImage0,
-            tribeImage1            
+            eltoImage0,
+            eltoImage1
         ],
-        
+
         //TEXT
-        "info" : 'A simulation where you, as a player, can influence agents while they will adapt to their surroundings. Find food and water, rest, explore, reproduce, and pass their genes to offspring.',
-        "problems": 'Agents were dying out because they explored the surrounding and couldn\'t find any food/water sources.',
-        "solutions" : 'It was solved by adding memory, so agents remember where the last time they drank/ate and return to that area when they are hungry/thirsty.'
-        },
+        "info" : 'During my time at <a href="https://paintbucket.de/en" target="_blank" rel="noreferrer">Paintbucket Games</a>, I contributed to the development and launch of <a href="https://tech-education.com/electrify-today-en/" target="_blank" rel="noreferrer">ELECTRIFYtoday</a>, my first officially published game. It is an educational free game about transitioning to renewable energies and electrification for ' +
+            '<a href="https://tech-education.com/electrify-today-en/" target="_blank" rel="noreferrer">Windows</a>, ' +
+            '<a href="https://electrify-today.com/" target="_blank" rel="noreferrer">WebGL</a>, ' +
+            '<a href="https://play.google.com/store/apps/details?id=com.phoenixcontact.electrifytoday" target="_blank" rel="noreferrer">Android</a>, and ' +
+            '<a href="https://apps.apple.com/app/electrifytoday/id6479370445" target="_blank" rel="noreferrer">iOS</a>.',
+        "problems" : "We needed surface-specific stepping and driving sounds, but the map structure did not allow us to use raycasts.",
+        "solutions" : "I  wrote a script that runs during loading and divides the world into small chunks (2D Array). According to the player's position, it plays sound related to the chunk and blends when on its edge. "
+    },
     {
         //ON MAIN PAGE
         "title" : "Party Chaos",
-        "coverInfo" : '<h2>PARTY CHAOS</h2>',
+        "coverInfo" : 'How I made a <h2>PARTY GAME</h2> in <h2>1 WEEK</h2>',
         "cover" : partyChaosCover,
         "contribution" : '<li>Team System</li><li>Minigames Logic</li><li>Procedurally Generated Hub </li><li>Minigames Design</li><li>Level Design</li><li>Post-Processing FX</li><li>Board Game System (v0.1)</li>',
 
@@ -127,37 +137,36 @@ const projects = [
     },
     {
         //ON MAIN PAGE
-        "title" : "Mendelian Genetics",
-        "coverInfo" : '<h2>INHERITANCE SIM</h2>',
-        "cover" : geneticsCover,
-        "contribution" : '<li>Inheritance System</li><li>Gene/Trait System</li><li>Agent&#39s State Machine</li>',
+        "title" : "Tribe Sim",
+        "coverInfo" : 'How I made <h2>AGENTS</h2> adapt with <h2>BEHAVIOR TREE</h2>',
+        "cover" : tribeCover,
+        "contribution" : '<li>Behavior Tree</li><li>Tick System</li><li>Inheritance System</li><li>Agent&#39s Behavior</li><li>Agent&#39s Memory</li><li>Simulation Control System</li>',
 
         //DETAILS
-        "roles" : "Programmer",
-        "semester": null,
-        "teamSize": "1",
-        "time": "4 hours",
-        "date": "May 2023 (paused)",
+        "roles" : "Programmer, Game Designer",
+        "semester": "4th",
+        "teamSize": "3",
+        "time": "100+ hours",
+        "date": "05.07.2023",
         "engine": "Unity Engine",
 
         //BUTTONS
-        "gitHub": "https://github.com/psikh286/Mendelian-Genetics/tree/master/Heredity/Assets/_Scripts",
-        "itch": null,
-
+        "gitHub": "https://github.com/psikh286/SuSe23-TribeSim/tree/master/Geopolitics%20Sim/Assets/_Scripts",
+        "itch": "https://psikh286.itch.io/party-chaos",
+        
         //IMAGES
-        "mainImg" : geneticsMainImage,
+        "mainImg" : tribeMainImage,
         "images" : [
-            geneticsImage0,
-            geneticsImage1
+            tribeImage0,
+            tribeImage1            
         ],
-
+        
         //TEXT
-        "info" : 'Inspired by <a href="https://www.youtube.com/watch?v=raQ3iHhE_Kk" target="_blank" rel="noreferrer">this talk</a>. The project is an experiment with <a href="https://en.wikipedia.org/wiki/Mendelian_inheritance" target="_blank" rel="noreferrer">simple inheritance patterns</a> and aims to be designer-friendly by allowing easy modifications through the Unity inspector without opening the code editor. It can be expanded without extra refactoring.',
-        "problems" : "Keep everything simple for the user and, at the same time, have complex functionality.",
-        "solutions" : "I divided everything into chunks, so traits, relations between each other, and a list of those traits(genotypes) are separate objects in Unity Inspector. It also makes everything modular and reusable. I used Scriptable Objects as a bridge between designers and programmers. "
-    },
-
-
+        "info" : 'A simulation where you, as a player, can influence agents while they will adapt to their surroundings. Find food and water, rest, explore, reproduce, and pass their genes to offspring.',
+        "problems": 'Agents were dying out because they explored the surrounding and couldn\'t find any food/water sources.',
+        "solutions" : 'It was solved by adding memory, so agents remember where the last time they drank/ate and return to that area when they are hungry/thirsty.'
+        },
+    
     {
         //ON MAIN PAGE
         "title" : "Sound Of the Road",
@@ -171,7 +180,7 @@ const projects = [
         "semester": "4th",
         "teamSize": "9(actually 7)",
         "time": "40+ hours",
-        "date": "On-going",
+        "date": "15.07.2023",
         "engine": "Unity Engine",
 
         //BUTTONS
@@ -251,6 +260,36 @@ const projects = [
         "info" : "As a 1st experience in Unreal Engine, we built a parkour movement demo with features like wall running, sliding, air dash, and more. We used the <a href='https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1' target='_blank' rel='noreferrer'>ALSv4 package</a> as a foundation.",
         "problems" : "The main problem was that I didn&#39t have an experience with Unreal.",
         "solutions" : "Learning Unreal from scratch wasn&#39t possible, so I started to define similarities and differences with Unity. After a while, I had a clearer picture of how to implement stuff, and I used my Bolt (Visual Scripting in Unity) knowledge gained in the 1st semester to make wall-running and air-dash.\n"
+    },
+    {
+        //ON MAIN PAGE
+        "title" : "Mendelian Genetics",
+        "coverInfo" : 'How I made <h2>CONSTRUCTOR</h2> out of <h2>GENES</h2>',
+        "cover" : geneticsCover,
+        "contribution" : '<li>Inheritance System</li><li>Gene/Trait System</li><li>Agent&#39s State Machine</li>',
+
+        //DETAILS
+        "roles" : "Programmer",
+        "semester": null,
+        "teamSize": "1",
+        "time": "4 hours",
+        "date": "May 2023 (paused)",
+        "engine": "Unity Engine",
+
+        //BUTTONS
+        "gitHub": "https://github.com/psikh286/Mendelian-Genetics/tree/master/Heredity/Assets/_Scripts",
+        "itch": null,
+
+        //IMAGES
+        "images" : [
+            geneticsImage0,
+            geneticsImage1
+        ],
+
+        //TEXT
+        "info" : 'Inspired by <a href="https://www.youtube.com/watch?v=raQ3iHhE_Kk" target="_blank" rel="noreferrer">this talk</a>. The project is an experiment with <a href="https://en.wikipedia.org/wiki/Mendelian_inheritance" target="_blank" rel="noreferrer">simple inheritance patterns</a> and aims to be designer-friendly by allowing easy modifications through the Unity inspector without opening the code editor. It can be expanded without extra refactoring.',
+        "problems" : "Keep everything simple for the user and, at the same time, have complex functionality.",
+        "solutions" : "I divided everything into chunks, so traits, relations between each other, and a list of those traits(genotypes) are separate objects in Unity Inspector. It also makes everything modular and reusable. I used Scriptable Objects as a bridge between designers and programmers. "
     },
     {
         //ON MAIN PAGE
