@@ -1,6 +1,6 @@
 import './about.css'
 
-import resume from '../../img/Resume.pdf'
+import resume from '../../img/AlanBerberov_CV.pdf'
 
 import gitHub from "../../img/linkLogos/github.svg";
 import linkedIn from "../../img/linkLogos/linkedin.svg";
@@ -16,10 +16,9 @@ const About = () => {
             <div className="about__info block">
                 <p className="about__text">
                     I specialize in <b className="highlighted">Unity Engine</b> and <b className="highlighted">C#</b>, making exciting game mechanics, expandable systems, and designer-friendly tools.
-                    I'm studying Game Design at the University of Applied Science.
                 </p>
                 <hr color="black" width="100%"/>
-                <a href={resume} className="about__download" target="_blank" rel="noreferrer">RESUME/CV</a>
+                <a href={resume} className="about__download" target="_blank" download="AlanBerberov_CV.pdf" rel="noreferrer">RESUME/CV</a>
             </div>
             
             <div className="about__contacts block">
