@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e736961c.css",
-    "main.js": "/static/js/main.20bdbde2.js",
+    "main.js": "/static/js/main.0d8a8d3c.js",
     "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
     "static/media/PartyChaos_1.png": "/static/media/PartyChaos_1.0c50befea87f15bf032f.png",
     "static/media/PartyChaos_5.png": "/static/media/PartyChaos_5.b8f0b321e85bef04de3b.png",
@@ -26,8 +26,8 @@
     "static/media/Inher_1.png": "/static/media/Inher_1.849df6743d4a55a03761.png",
     "static/media/Craft_1.png": "/static/media/Craft_1.4cda24c7f4fef01aa39b.png",
     "static/media/Slimy_cover.png": "/static/media/Slimy_cover.007880af65e4ed93e917.png",
+    "static/media/AlanBerberov_CV.pdf": "/static/media/AlanBerberov_CV.8f9a7b693e23fd220d20.pdf",
     "static/media/Slimy_1.png": "/static/media/Slimy_1.9c8190403b061e19df36.png",
-    "static/media/AlanBerberov_CV.pdf": "/static/media/AlanBerberov_CV.cfc4dfd37e2e98584aed.pdf",
     "static/media/Slimy_main.png": "/static/media/Slimy_main.eb31c4dce458153b555b.png",
     "static/media/EOTW_main.png": "/static/media/EOTW_main.72246d05e6de2c6185f3.png",
     "static/media/Slimy_0.png": "/static/media/Slimy_0.798b987b8aff04d4f732.png",
@@ -53,11 +53,11 @@
     "static/media/email.svg": "/static/media/email.c3ffced7a58faa2c2f25f38e9550fd76.svg",
     "static/media/upButton.svg": "/static/media/upButton.47d91978023cf04c3da65d3815b286e8.svg",
     "main.e736961c.css.map": "/static/css/main.e736961c.css.map",
-    "main.20bdbde2.js.map": "/static/js/main.20bdbde2.js.map",
+    "main.0d8a8d3c.js.map": "/static/js/main.0d8a8d3c.js.map",
     "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e736961c.css",
-    "static/js/main.20bdbde2.js"
+    "static/js/main.0d8a8d3c.js"
   ]
 }
